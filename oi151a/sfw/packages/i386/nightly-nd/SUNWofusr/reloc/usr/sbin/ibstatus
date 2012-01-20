@@ -1,0 +1,138 @@
+#!/bin/sh
+
+# Usage ibstatus [devname[:port]]
+
+ibvdevinfo="/usr/bin/ibv_devinfo"
+ibvdevinfo_results="/tmp/ibvdevinfo.output"
+tmpout="/tmp/tmpout"
+
+usage() {
+	prog=`basename $0`
+	echo "Usage: " $prog " [-h] [devname[:portnum]]"
+	echo "	-h:	this help screen"
+	echo "	Examples:"
+	echo "		$prog mlx4_1		# shows status of all ports of 'mlx4_1'"
+	echo "		$prog mlx4_0:2	# shows status port number 2 of 'mlx4_0'"
+	echo "		$prog		# default: shows status of all IB ports"
+	exit 0
+}
+
+get_status_ports() {
+	nawk '
+	BEGIN {
+		hcaid_in="'"$1"'"
+		port_in="'"$2"'"
+		if (hcaid_in == "+") {
+			hcaid_hit=1
+			if (port_in == "+")
+				port_hit=1
+		}
+	}
+	{
+		if ($0 ~ "hca_id") {
+			if (hcaid_in == "+") {
+				cur_hcaid = $2
+			} else if (hcaid_in == $2) {
+				hcaid_hit=1
+				if (port_in == "+")
+					port_hit=1
+			} else if (hcaid_hit == 1)
+				exit 0
+		}
+		if (hcaid_hit == 1) {
+			if ($0 ~ "port:") {
+				if (port_in == "+") {
+					cur_port=$2;
+				} else if (port_in == $2) {
+					port_hit=1
+				} else if (port_hit == 1)
+					exit 0
+			}
+		}
+		if (hcaid_hit == 1 && port_hit == 1) {
+			if ($0 ~ "state:" && $0 !~ "phys_state:") {
+				state=$2;
+				staten=$3
+			} else if ($0 ~ "sm_lid:") {
+				sm_lid=$2
+			} else if ($0 ~ "port_lid:") {
+				port_lid=$2
+			} else if ($0 ~ "active_width:") {
+				width = $2
+				sub("X$", "", width)
+			} else if ($0 ~ "active_speed:") {
+				speed=$2
+			} else if ($0 ~ "phys_state:") {
+				pstate=$2
+				pstaten=$3
+			} else if ($0 ~ "GID"){
+				gid=$NF
+				if (hcaid_in == "+") {
+					printf("Infiniband device '\''%s'\'' port %d status:\n", cur_hcaid, cur_port);
+				} else if (port_in == "+") {
+					printf("Infiniband device '\''%s'\'' port %d status:\n", hcaid_in, cur_port);
+				} else {
+					printf("Infiniband device '\''%s'\'' port %d status:\n", hcaid_in, port_in);
+				}
+				printf("\tdefault gid:\t%s\n", gid)
+				printf("\tstate:\t\t%d: %s\n", staten, state); 
+				printf("\tphys state:\t%d: %s\n", pstaten, pstate);
+				printf("\tsm lid:\t\t0x%x\n", sm_lid)
+				printf("\tbase lid:\t0x%x\n", port_lid)
+				printf("\trate:\t\t%d Gb/sec (%dX)\n\n", width * speed, width)
+			}
+		}
+	}
+	END {
+		if (hcaid_in != "+" && port_in == "+" && hcaid_hit == 0)
+ 			printf("Fatal error: device '\''%s'\'' not found\n\n", hcaid_in)
+		if (hacid_in != "+" && port_in != "+" && port_hit == 0)
+ 			printf("Fatal error: port '\''%s:%d'\'' not found\n\n", hcaid_in, port_in)
+	}' $tmpout
+}
+
+if [ "$1" = "-h" ]; then
+	usage
+fi
+
+# Check to see if /usr/bin/ibv_devinfo exists.
+if [ ! -x $ibvdevinfo ]; then
+	echo "$ibvdevinfo doesn't exist!"
+	exit 0
+fi
+
+rm -rf $ibvdevinfo_results
+
+# Run ibv_devinfo and direct the output to $ibvdevinfo_results.
+$ibvdevinfo -v > $ibvdevinfo_results
+if [ $? != 0 ]; then
+	echo "$ibvdevinfo failed!"
+	exit 0
+fi
+#
+
+nhcas=`$ibvdevinfo -l | awk '/HCA/{print $1}'`
+if [ -z $nhcas ]; then
+        echo "No HCAs!"
+	exit 0
+fi
+
+egrep "port:|hca_id:|_lid|GID|state:|active_" $ibvdevinfo_results |grep -v _mtu | sed -e 's/(//' -e 's/)//' > $tmpout
+
+if [ -z "$1" ]; then
+	get_status_ports "+" "+"
+	exit 0
+fi
+
+while [ "$1" ]; do
+	dev=`echo $1 | sed 's/:.*$//'`
+	port=`echo $1 | sed 's/^.*://'`
+
+	if [ "$port" = "$dev" ]; then
+		port="+"
+	fi
+
+	get_status_ports $dev $port
+
+	shift
+done

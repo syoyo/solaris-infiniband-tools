@@ -1,0 +1,10 @@
+#!/bin/sh -f
+
+export TCLLIBPATH="none /usr/lib"; \
+export PATH="none":$PATH; \
+exec ibis "$@" <<EOF
+
+set argv0 ibdiagnet
+package require ibdiagnet
+
+EOF

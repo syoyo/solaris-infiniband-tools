@@ -1,0 +1,93 @@
+SYSTEM LEAF,LEAF:4x,LEAF:4X
+
+NODE SW 8 MT43132 U1
+   1 -> P1
+   2 -> P2
+   3 -> P3
+   4 -> P4
+   5 -> P5
+   6 -> P6
+   7 -> P7
+   8 -> P8
+
+SYSTEM MAIN
+
+NODE SW 8 MT43132 U1
+   1 -> U3 8
+   2 -> U3 7
+   3 -> P1
+   4 -> P2
+   5 -> P3
+   6 -> P4
+   7 -> U4 2
+   8 -> U4 1
+   
+NODE SW 8 MT43132 U2
+   1 -> U4 8
+   2 -> U4 7
+   3 -> P5
+   4 -> P6
+   5 -> P7
+   6 -> P8
+   7 -> U3 2
+   8 -> U3 1
+
+NODE SW 8 MT43132 U3
+   1 -> U2 8
+   2 -> U2 7
+   3 -> P9
+   4 -> P10
+   5 -> P11
+   6 -> P12
+   7 -> U1 2
+   8 -> U1 1
+
+NODE SW 8 MT43132 U4
+   1 -> U1 8
+   2 -> U1 7
+   3 -> P13
+   4 -> P14
+   5 -> P15
+   6 -> P16
+   7 -> U2 2
+   8 -> U2 1
+
+TOPSYSTEM Gnu
+
+SUBSYSTEM MAIN main
+   P1 -> leaf2 P1
+   P2 -> leaf2 P2
+   P3 -> leaf1 P2
+   P4 -> leaf1 P1
+   P5 -> leaf2 P8
+   P6 -> leaf2 P7
+   P7 -> leaf1 P7
+   P8 -> leaf1 P8
+   P9 ->  M/P4
+   P10 -> M/P3
+   P11 -> M/P2
+   P12 -> M/P1
+   P13 -> M/P8
+   P14 -> M/P7
+   P15 -> M/P6
+   P16 -> M/P5
+
+SUBSYSTEM LEAF leaf1
+   P1 -> main P4
+   P2 -> main P3
+   P3 -> L1/P4
+   P4 -> L1/P3
+   P5 -> L1/P2
+   P6 -> L1/P1
+   P7 -> main P7
+   P8 -> main P8
+
+SUBSYSTEM LEAF leaf2
+   P1 -> main P1
+   P2 -> main P2
+   P3 -> L2/P4
+   P4 -> L2/P3
+   P5 -> L2/P2
+   P6 -> L2/P1
+   P7 -> main P6
+   P8 -> main P5

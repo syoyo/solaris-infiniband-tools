@@ -1,0 +1,6 @@
+
+TOPSYSTEM LionMini,MHEA28-XT,MT25218
+
+NODE CA 2 M25218 U1
+   1 -> P1
+   2 -> P2

@@ -1,0 +1,79 @@
+'\" t
+.\"
+.\" Modified for Solaris to to add the Solaris stability classification,
+.\" and to add a note about source availability.
+.\" 
+.TH RDS-PING 1 "Apr 22, 2008"
+.SH NAME
+rds-ping - test reachability of remote node over RDS
+
+.SH SYNOPSIS
+.B rds-ping [-c count] [-i interval] [-I local_addr] remote_addr
+
+.SH DESCRIPTION
+.PP
+rds-ping is used to test whether a remote node is reachable over RDS.
+Its interface is designed to operate pretty much the standard ping(1M) 
+utility, even though the way it works is pretty different.
+.PP
+rds-ping opens several RDS sockets and sends packets to port 0 on
+the indicated host. This is a special port number to which
+no socket is bound; instead, the kernel processes incoming
+packets and responds to them.
+.SH OPTIONS
+The following options are available for use on the command line:
+.PP
+.TP 7
+\fB\-c count
+Causes rds-ping to exit after sending (and receiving) the specified number of
+packets.
+.TP
+\fB\-I address
+By default, rds-ping will pick the local source address for the RDS socket based
+on routing information for the destination address (i.e. if
+packets to the given destination would be routed through interface
+ib0 ,
+then it will use the IP address of
+ib0
+as source address).
+Using the
+.Fl I
+option, you can override this choice.
+.TP
+\fB\-i timeout
+By default, rds-ping will wait for one second between sending packets. Use this option
+to specified a different interval. The timeout value is given in
+seconds, and can be a floating point number. Optionally, append
+msec
+or
+usec
+to specify a timeout in milliseconds or microseconds, respectively.
+.IP
+Specifying a timeout considerably smaller than the packet round-trip
+time will produce unexpected results.
+
+.SH AUTHORS
+rds-ping
+was written by Olaf Kirch <olaf.kirch@oracle.com>.
+.S~ SEE ALSO
+rds 7, rds-info 1, rds-stress 1.
+.\" Begin Sun update
+.SH ATTRIBUTES
+See
+.BR attributes (5)
+for descriptions of the following attributes:
+.sp
+.TS
+box;
+cbp-1 | cbp-1
+l | l .
+ATTRIBUTE TYPE	ATTRIBUTE VALUE
+_
+Availability	network/open-fabrics
+_
+Interface Stability	Volatile
+.TE 
+.PP
+.SH NOTES
+Source for OFED is available from http://www.openfabrics.org/.
+.\" End Sun update

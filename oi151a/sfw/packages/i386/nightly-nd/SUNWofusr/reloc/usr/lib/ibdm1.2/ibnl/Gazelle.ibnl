@@ -1,0 +1,411 @@
+SYSTEM LEAF,LEAF:4x,LEAF:4X
+
+NODE SW 8 MT43132 U1
+   1 -> P16
+   2 -> P15
+   3 -> P14
+   4 -> P13
+   5 -> U4 4
+   6 -> U5 4
+   7 -> U6 4
+   8 -> U7 4
+
+NODE SW 8 MT43132 U2
+   1 -> P20
+   2 -> P19
+   3 -> P18
+   4 -> P17
+   5 -> U4 3
+   6 -> U5 3
+   7 -> U6 3
+   8 -> U7 3
+
+NODE SW 8 MT43132 U3
+   1 -> P24
+   2 -> P23
+   3 -> P22
+   4 -> P21
+   5 -> U4 2
+   6 -> U5 2
+   7 -> U6 2
+   8 -> U7 2
+
+NODE SW 8 MT43132 U4 
+   5 -> P1
+   6 -> P2
+   7 -> P3
+   2 -> U3 5
+   3 -> U2 5
+   4 -> U1 5
+
+NODE SW 8 MT43132 U5
+   5 -> P4
+   6 -> P5
+   7 -> P6
+   2 -> U3 6
+   3 -> U2 6
+   4 -> U1 6
+
+NODE SW 8 MT43132 U6
+   5 -> P7
+   6 -> P8
+   7 -> P9
+   2 -> U3 7
+   3 -> U2 7
+   4 -> U1 7
+
+NODE SW 8 MT43132 U7
+   5 -> P10
+   6 -> P11
+   7 -> P12
+   2 -> U3 8
+   3 -> U2 8
+   4 -> U1 8
+
+
+SYSTEM SPINE,SPINE:4X,SPINE:4x
+
+NODE SW 8 MT43132 U1
+   1 -> P10
+   2 -> P7
+   3 -> P16
+   4 -> P15
+   5 -> P22
+   6 -> P19
+   7 -> P6
+   8 -> P3
+
+NODE SW 8 MT43132 U2
+   1 -> P11
+   2 -> P8
+   3 -> P17
+   4 -> P14
+   5 -> P23
+   6 -> P20
+   7 -> P5
+   8 -> P2
+
+NODE SW 8 MT43132 U3
+   1 -> P12
+   2 -> P9
+   3 -> P18
+   4 -> P13
+   5 -> P24
+   6 -> P21
+   7 -> P4
+   8 -> P1
+
+TOPSYSTEM MTS9600,Gazelle,GZ
+
+SUBSYSTEM LEAF leaf1
+   P1 -> spine2 P1
+   P2 -> spine2 P2
+   P3 -> spine2 P3
+   P4 -> spine3 P4
+   P5 -> spine3 P5
+   P6 -> spine3 P6
+   P7 -> spine1 P7
+   P8 -> spine1 P8
+   P9 -> spine1 P9
+   P10 -> spine4 P10
+   P11 -> spine4 P11
+   P12 -> spine4 P12
+   P13 -> L1/P1
+   P14 -> L1/P2
+   P15 -> L1/P3
+   P16 -> L1/P4
+   P17 -> L1/P5
+   P18 -> L1/P6
+   P19 -> L1/P7
+   P20 -> L1/P8
+   P21 -> L1/P9
+   P22 -> L1/P10
+   P23 -> L1/P11
+   P24 -> L1/P12
+
+SUBSYSTEM LEAF leaf2
+   P1 -> spine4 P1
+   P2 -> spine4 P2
+   P3 -> spine4 P3
+   P4 -> spine2 P13
+   P5 -> spine2 P14
+   P6 -> spine2 P15
+   P7 -> spine1 P16
+   P8 -> spine1 P17
+   P9 -> spine1 P18
+   P10 -> spine3 P7
+   P11 -> spine3 P8
+   P12 -> spine3 P9
+   P13 -> L2/P1
+   P14 -> L2/P2
+   P15 -> L2/P3
+   P16 -> L2/P4
+   P17 -> L2/P5
+   P18 -> L2/P6
+   P19 -> L2/P7
+   P20 -> L2/P8
+   P21 -> L2/P9
+   P22 -> L2/P10
+   P23 -> L2/P11
+   P24 -> L2/P12
+
+SUBSYSTEM LEAF leaf3
+   P1 -> spine3 P19
+   P2 -> spine3 P20
+   P3 -> spine3 P21
+   P4 -> spine4 P22
+   P5 -> spine4 P23
+   P6 -> spine4 P24
+   P7 -> spine1 P13
+   P8 -> spine1 P14
+   P9 -> spine1 P15
+   P10 -> spine2 P16
+   P11 -> spine2 P17
+   P12 -> spine2 P18
+   P13 -> L3/P1
+   P14 -> L3/P2
+   P15 -> L3/P3
+   P16 -> L3/P4
+   P17 -> L3/P5
+   P18 -> L3/P6
+   P19 -> L3/P7
+   P20 -> L3/P8
+   P21 -> L3/P9
+   P22 -> L3/P10
+   P23 -> L3/P11
+   P24 -> L3/P12
+
+SUBSYSTEM LEAF leaf4
+   P1 -> spine1 P21
+   P2 -> spine1 P20
+   P3 -> spine1 P19
+   P4 -> spine4 P4
+   P5 -> spine4 P5
+   P6 -> spine4 P6
+   P7 -> spine3 P22
+   P8 -> spine3 P23
+   P9 -> spine3 P24
+   P10 -> spine2 P10
+   P11 -> spine2 P11
+   P12 -> spine2 P12
+   P13 -> L4/P1
+   P14 -> L4/P2
+   P15 -> L4/P3
+   P16 -> L4/P4
+   P17 -> L4/P5
+   P18 -> L4/P6
+   P19 -> L4/P7
+   P20 -> L4/P8
+   P21 -> L4/P9
+   P22 -> L4/P10
+   P23 -> L4/P11
+   P24 -> L4/P12
+
+SUBSYSTEM LEAF leaf5
+   P1 -> spine4 P19
+   P2 -> spine4 P20
+   P3 -> spine4 P21
+   P4 -> spine1 P4
+   P5 -> spine1 P5
+   P6 -> spine1 P6
+   P7 -> spine2 P24
+   P8 -> spine2 P23
+   P9 -> spine2 P22
+   P10 -> spine3 P10
+   P11 -> spine3 P11
+   P12 -> spine3 P12
+   P13 -> L5/P1
+   P14 -> L5/P2
+   P15 -> L5/P3
+   P16 -> L5/P4
+   P17 -> L5/P5
+   P18 -> L5/P6
+   P19 -> L5/P7
+   P20 -> L5/P8
+   P21 -> L5/P9
+   P22 -> L5/P10
+   P23 -> L5/P11
+   P24 -> L5/P12
+
+SUBSYSTEM LEAF leaf6
+   P1 -> spine2 P21
+   P2 -> spine2 P20
+   P3 -> spine2 P19
+   P4 -> spine1 P22
+   P5 -> spine1 P23
+   P6 -> spine1 P24
+   P7 -> spine4 P15
+   P8 -> spine4 P14
+   P9 -> spine4 P13
+   P10 -> spine3 P16
+   P11 -> spine3 P17
+   P12 -> spine3 P18
+   P13 -> L6/P1
+   P14 -> L6/P2
+   P15 -> L6/P3
+   P16 -> L6/P4
+   P17 -> L6/P5
+   P18 -> L6/P6
+   P19 -> L6/P7
+   P20 -> L6/P8
+   P21 -> L6/P9
+   P22 -> L6/P10
+   P23 -> L6/P11
+   P24 -> L6/P12
+
+SUBSYSTEM LEAF leaf7
+   P1 -> spine1 P1
+   P2 -> spine1 P2
+   P3 -> spine1 P3
+   P4 -> spine3 P13
+   P5 -> spine3 P14
+   P6 -> spine3 P15
+   P7 -> spine4 P16
+   P8 -> spine4 P17
+   P9 -> spine4 P18
+   P10 -> spine2 P9
+   P11 -> spine2 P8
+   P12 -> spine2 P7
+   P13 -> L7/P1
+   P14 -> L7/P2
+   P15 -> L7/P3
+   P16 -> L7/P4
+   P17 -> L7/P5
+   P18 -> L7/P6
+   P19 -> L7/P7
+   P20 -> L7/P8
+   P21 -> L7/P9
+   P22 -> L7/P10
+   P23 -> L7/P11
+   P24 -> L7/P12
+
+SUBSYSTEM LEAF leaf8
+   P1 -> spine3 P1
+   P2 -> spine3 P2
+   P3 -> spine3 P3
+   P4 -> spine2 P4
+   P5 -> spine2 P5
+   P6 -> spine2 P6
+   P7 -> spine4 P7
+   P8 -> spine4 P8
+   P9 -> spine4 P9
+   P10 -> spine1 P10
+   P11 -> spine1 P11
+   P12 -> spine1 P12
+   P13 -> L8/P1
+   P14 -> L8/P2
+   P15 -> L8/P3
+   P16 -> L8/P4
+   P17 -> L8/P5
+   P18 -> L8/P6
+   P19 -> L8/P7
+   P20 -> L8/P8
+   P21 -> L8/P9
+   P22 -> L8/P10
+   P23 -> L8/P11
+   P24 -> L8/P12
+
+SUBSYSTEM SPINE spine1
+   P10 -> leaf8 P10
+   P7 -> leaf1 P7
+   P16 -> leaf2 P7
+   P15 -> leaf3 P9
+   P22 -> leaf6 P4
+   P19 -> leaf4 P3
+   P6 -> leaf5 P6
+   P3 -> leaf7 P3
+   P11 -> leaf8 P11
+   P8 -> leaf1 P8
+   P17 -> leaf2 P8
+   P14 -> leaf3 P8
+   P23 -> leaf6 P5
+   P20 -> leaf4 P2
+   P5 -> leaf5 P5
+   P2 -> leaf7 P2
+   P12 -> leaf8 P12
+   P9 -> leaf1 P9
+   P18 -> leaf2 P9
+   P13 -> leaf3 P7
+   P24 -> leaf6 P6
+   P21 -> leaf4 P1
+   P4 -> leaf5 P4
+   P1 -> leaf7 P1
+
+SUBSYSTEM SPINE spine2
+   P10 -> leaf4 P10
+   P7 -> leaf7 P12
+   P16 -> leaf3 P10
+   P15 -> leaf2 P6
+   P22 -> leaf5 P9
+   P19 -> leaf6 P3
+   P6 -> leaf8 P6
+   P3 -> leaf1 P3
+   P11 -> leaf4 P11
+   P8 -> leaf7 P11
+   P17 -> leaf3 P11
+   P14 -> leaf2 P5
+   P23 -> leaf5 P8
+   P20 -> leaf6 P2
+   P5 -> leaf8 P5
+   P2 -> leaf1 P2
+   P12 -> leaf4 P12
+   P9 -> leaf7 P10
+   P18 -> leaf3 P12
+   P13 -> leaf2 P4
+   P24 -> leaf5 P7
+   P21 -> leaf6 P1
+   P4 -> leaf8 P4
+   P1 -> leaf1 P1
+
+SUBSYSTEM SPINE spine3
+   P10 -> leaf5 P10
+   P7 -> leaf2 P10
+   P16 -> leaf6 P10
+   P15 -> leaf7 P6
+   P22 -> leaf4 P7
+   P19 -> leaf3 P1
+   P6 -> leaf1 P6
+   P3 -> leaf8 P3
+   P11 -> leaf5 P11
+   P8 -> leaf2 P11
+   P17 -> leaf6 P11
+   P14 -> leaf7 P5
+   P23 -> leaf4 P8
+   P20 -> leaf3 P2
+   P5 -> leaf1 P5
+   P2 -> leaf8 P2
+   P12 -> leaf5 P12
+   P9 -> leaf2 P12
+   P18 -> leaf6 P12
+   P13 -> leaf7 P4
+   P24 -> leaf4 P9
+   P21 -> leaf3 P3
+   P4 -> leaf1 P4
+   P1 -> leaf8 P1
+
+SUBSYSTEM SPINE spine4
+   P10 -> leaf1 P10
+   P7 -> leaf8 P7
+   P16 -> leaf7 P7
+   P15 -> leaf6 P7
+   P22 -> leaf3 P4
+   P19 -> leaf5 P1
+   P6 -> leaf4 P6
+   P3 -> leaf2 P3
+   P11 -> leaf1 P11
+   P8 -> leaf8 P8
+   P17 -> leaf7 P8
+   P14 -> leaf6 P8
+   P23 -> leaf3 P5
+   P20 -> leaf5 P2
+   P5 -> leaf4 P5
+   P2 -> leaf2 P2
+   P12 -> leaf1 P12
+   P9 -> leaf8 P9
+   P18 -> leaf7 P9
+   P13 -> leaf6 P9
+   P24 -> leaf3 P6
+   P21 -> leaf5 P3
+   P4 -> leaf4 P4
+   P1 -> leaf2 P1
+

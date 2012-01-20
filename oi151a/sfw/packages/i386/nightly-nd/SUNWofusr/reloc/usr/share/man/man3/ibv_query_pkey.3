@@ -1,0 +1,58 @@
+'\" t
+.\"
+.\" Modified for Solaris to to add the Solaris stability classification,
+.\" and to add a note about source availability.
+.\" 
+.\" -*- nroff -*-
+.\"
+.TH IBV_QUERY_PKEY 3 2006-10-31 libibverbs "Libibverbs Programmer's Manual"
+.SH "NAME"
+ibv_query_pkey \- query an InfiniBand port's P_Key table
+.SH "SYNOPSIS"
+.nf
+.B #include <infiniband/verbs.h>
+.sp
+.BI "int ibv_query_pkey(struct ibv_context " "*context" ", uint8_t " "port_num" ,
+.BI "                   int " "index" ", uint16_t " "*pkey" ");
+.fi
+.SH "DESCRIPTION"
+.B ibv_query_pkey()
+returns the P_Key value (in network byte order) in entry
+.I index
+of port
+.I port_num
+for device context
+.I context
+through the pointer
+.I pkey\fR.
+.SH "RETURN VALUE"
+.B ibv_query_pkey()
+returns 0 on success, and \-1 on error.
+.SH "SEE ALSO"
+.BR ibv_open_device (3),
+.BR ibv_query_device (3),
+.BR ibv_query_port (3),
+.BR ibv_query_gid (3)
+.SH "AUTHORS"
+.TP
+Dotan Barak <dotanb@mellanox.co.il>
+.\" Begin Sun update
+.SH ATTRIBUTES
+See
+.BR attributes (5)
+for descriptions of the following attributes:
+.sp
+.TS
+box;
+cbp-1 | cbp-1
+l | l .
+ATTRIBUTE TYPE	ATTRIBUTE VALUE
+_
+Availability	network/open-fabrics
+_
+Interface Stability	Volatile
+.TE 
+.PP
+.SH NOTES
+Source for OFED is available from http://www.openfabrics.org/.
+.\" End Sun update

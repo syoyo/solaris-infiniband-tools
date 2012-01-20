@@ -1,0 +1,56 @@
+'\" t
+.\"
+.\" Modified for Solaris to to add the Solaris stability classification,
+.\" and to add a note about source availability.
+.\" 
+.TH IBNODES 1m "July 25, 2006" "OpenIB" "OpenIB Diagnostics"
+
+.SH NAME
+ibnodes \- show InfiniBand nodes in topology
+
+.SH SYNOPSIS
+.B ibnodes
+[\-h] [<topology-file> | \-C ca_name \-P ca_port \-t(imeout) timeout_ms]
+
+.SH DESCRIPTION
+.PP
+ibnodes is a script which either walks the IB subnet topology or uses an
+already saved topology file and extracts the IB nodes (CAs and switches).
+
+.SH OPTIONS
+.PP
+\-h      show the usage message
+.PP
+\-C <ca_name>    use the specified ca_name.
+.PP
+\-P <ca_port>    use the specified ca_port.
+.PP
+\-t <timeout_ms> override the default timeout for the solicited mads.
+.SH SEE ALSO
+
+.BR ibnetdiscover(1m)
+
+.SH AUTHOR
+.TP
+Hal Rosenstock
+.RI < halr@voltaire.com >
+.\" Begin Sun update
+.SH ATTRIBUTES
+See
+.BR attributes (5)
+for descriptions of the following attributes:
+.sp
+.TS
+box;
+cbp-1 | cbp-1
+l | l .
+ATTRIBUTE TYPE	ATTRIBUTE VALUE
+_
+Availability	network/open-fabrics
+_
+Interface Stability	Volatile
+.TE 
+.PP
+.SH NOTES
+Source for OFED is available from http://www.openfabrics.org/.
+.\" End Sun update

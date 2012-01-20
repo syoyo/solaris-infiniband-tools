@@ -1,0 +1,235 @@
+'\" t
+.\"
+.\" Modified for Solaris to to add the Solaris stability classification,
+.\" and to add a note about source availability.
+.\" 
+.TH RDS-STRESS 1 " May 15, 2007"
+.SH "NAME"
+rds-stress - send messages between processes over RDS sockets
+.PP
+.SH SYNOPSIS
+.HP
+.nf
+rds-stress [-p port_number] -r [receive_address] [-s send_address]
+      [-a ack_bytes] [-q request_bytes] [-D rdma_bytes]
+      [-d queue_depth] [-t Ar nr_tasks] [-c] [-R] [-V] [-v] [-o] 
+      [-I iovecs] -M [nr] [-z] [-g lgrpid]
+.fi
+
+
+.SH DESCRIPTION
+.PP
+.Nm
+rds-stress
+sends messages between groups tasks, usually running on seperate
+machines.
+.PP
+First a passive receiving instance is started.
+.RS 12
+
+	$ rds-stress
+.RE
+.PP
+Then an active sending instance is started, giving it
+the address and port at which it will find a listening
+passive receiver.  In addition, it is given configuration options which
+both instances will use.
+.PP
+.RS 12
+	$ rds-stress -s recvhost -p 4000 -t 1 -d 1
+.RE
+.PP
+The active sender will parse the options, connect to the passive receiver, and
+send the options over this connection.  From this point on both instances
+exhibit the exact same behaviour.
+.PP
+They will create a number of child tasks as specified by the -t option.  Once
+the children are created the parent sleeps for a second at a time, printing a
+summary of statistics at each interval. 
+.PP
+Each child will open an RDS socket, each binding to a port number in order
+after the port number given on the command line.  The first child would bind to
+port 4001 in our example.  Each child sets the send and receive buffers to
+exactly fit the number of messages, requests and acks, that will be in flight
+as determind by the command line arguments.
+.PP
+The children then enter their loop.  They will keep a number of sent messages
+outstanding as specified by the -d option.  When they reach this limit they
+will wait to receive acks which will allow them to send again.  As they receive
+messages from their peers they immediately send acks.
+.PP
+Every second, the parent process will display statistics of the ongoing
+stress test. The output is described in section OUTPUT below.
+.PP
+If the -T option is given, the test will terminate after the specified time,
+and a summary is printed.
+.PP
+Each child maintains outstanding messages to all other children of the other instance.
+They do not send to their siblings.
+.SH OPTIONS
+.PP
+The following options are available for use on the command line:
+
+.TP 7
+\fB\-p  port_number
+Each parent binds a TCP socket to this port number and their respective
+address.  They will trade the negotiated options over this socket.  Each
+child will bind an RDS socket to the range of ports immediately following
+this port number, for as many children as there are.
+.TP
+\fB\-s send_address
+A connection attempt is made to this address.  Once its complete and the
+options are sent over it then children will be created and work will proceed.
+.TP
+\fB\-r receive_address
+This specifies the address that messages will be sent from.  If -s is not
+specified then rds-stress waits for a connection on this address before
+proceeding.
+
+If this option is not given, rds-stress will choose an appropriate address.
+The passive process will accept connections on all local interfaces, and
+obtain the address once the control connection is established.
+The active process will choose a local address based on the interface through
+which it connects to the destination address.
+.TP
+\fB\-a ack_bytes
+This specifies the size of the ack messages, in bytes. There is a minimum size
+which depends on the format of the ack messages, which may change over time.
+See section "Message Sizes" below.
+.TP
+\fB\-q request_bytes
+This specifies the size of the request messages, in bytes.
+It also has a minimum size which may change over time.
+See section "Message Sizes" below.
+.TP
+\fB\-D rdma_bytes
+RDSv3 is capable of transmitting part of a message via RDMA directly from
+application buffer to application buffer. This option enables RDMA support
+in rds-stress: request packets include parameters for an RDMA READ or WRITE
+operation, which the receiving process executes at the time the ACK packet
+is sent.
+See section "Message Sizes" below.
+.TP
+\fB\-d queue_depth
+Each child will try to maintain this many sent messages outstanding to each
+of its peers on the remote address.
+.TP
+\fB\-t nr_tasks
+Each parent will create this many children tasks.
+.TP
+\fB\-T seconds
+Specify the duration of the test run. After the specified number of seconds,
+all processes on both ends of the connection will terminate, and the
+active instance will print a summary. By default, rds-stress will keep
+on sending and receiving messages.
+.TP
+\fB\-z
+This flag can be used in conjunction with -T. It suppresses the ongoing
+display of statistics, and prints a summary only.
+.TP
+\fB\-c
+This causes rds-stress to create child tasks which just consume CPU cycles.
+One task is created for each CPU in the system.  First each child observes the
+maximum rate at which it can consume cycles.  This means that this option
+should only be given on an idle system.  rds-stress can then calculate the CPU
+use of the system by observing the lesser rate at which the children consume
+cycles.  This option is *not* shared between the active and passive instances.
+It must be specified on each rds-stress command line.
+.TP
+\fB\-R
+This tells the rds-stress parent process to run with SCHED_RR priority,
+giving it precedence over the child processes. This is useful when running
+with lots of tasks, where there is a risk of the child processes starving
+the parent, and skewing the results.
+.TP
+\fB\-v
+With this option enabled, packets are filled with a pattern that is
+verified by the receiver. This check can help detect data corruption
+occuring under high load.
+.TP
+\fB\-o
+Datagrams sent one way only (default is both)
+.TP
+\fB\-I iovecs
+RDMA: number of user buffers to target (default is 1, max is 512)
+.TP
+\fB\-M nr
+RDMA: mode (0=readwrite,1=readonly,2=writeonly)
+.TP
+\fB\-g lgrpid
+bind the process to the specified lgrp
+.PP
+
+.SS Message Sizes
+Options which set a message size (such as -a) specify a number of bytes
+by default. By appending \fBK\fP, \fBM\fP, or \fBG\fP, you can specify the size
+in kilobytes, megabytes or gigabytes, respectively. For instance,
+the following will run rds-stress with a message and ACK size of 1024
+bytes, and an RDMA message size of 1048576 bytes:
+.PP
+.RS 12
+rds-stress ... -q 1K -a 1K -D 1M
+.RE
+.PP
+.PP
+.SH OUTPUT
+Each parent outputs columns of statistics at a regular interval:
+.TP 8
+tsks
+The number of child tasks which are running.
+.TP
+tx/s
+The number of sendmsg() calls that all children are executing, per second. 
+.TP
+rx/s
+The number of recvmsg() calls that all children are executing, per second. 
+.TP
+tx+rx K/s
+The total number of bytes that are flowing through sendmsg() and recvmsg() for all children.
+This includes both request and ack messages.
+.TP
+mbi K/s
+The total number of bytes that are being received via RDMA READs and
+WRITEs for all children.
+.TP
+mbi K/s
+The total number of bytes that are being transmited via RDMA READs and
+WRITEs for all children.
+.TP
+tx us/c
+The average number of microseconds spent in sendmsg() calls.
+.TP
+rtt us
+The average round trip time for a request and ack message pair.  This measures
+the total time between when a task sends a request and when it finally receives
+the ack for that message.  Because it includes the time it takes for the
+receiver to wake up, receive the message, and send an ack, it can grow to be
+quite large under load. 
+.TP
+cpu %
+This is the percentage of available CPU resources on this machine that are being
+consumed since rds-stress started running.  It will show -1.00 if -c is not
+given.  It is calculated based on the amount of CPU resources that CPU soaking
+tasks are able to consume.  This lets it measure CPU use by the system, say in
+interrupt handlers, that task-based CPU accounting does not include.
+For this to work rds-stress must be started with -c on an idle system.
+.\" Begin Sun update
+.SH ATTRIBUTES
+See
+.BR attributes (5)
+for descriptions of the following attributes:
+.sp
+.TS
+box;
+cbp-1 | cbp-1
+l | l .
+ATTRIBUTE TYPE	ATTRIBUTE VALUE
+_
+Availability	network/open-fabrics
+_
+Interface Stability	Volatile
+.TE 
+.PP
+.SH NOTES
+Source for OFED is available from http://www.openfabrics.org/.
+.\" End Sun update

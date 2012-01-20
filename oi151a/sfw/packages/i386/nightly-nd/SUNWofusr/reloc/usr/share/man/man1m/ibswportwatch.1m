@@ -1,0 +1,60 @@
+'\" t
+.\"
+.\" Modified for Solaris to to add the Solaris stability classification,
+.\" and to add a note about source availability.
+.\" 
+.TH IBSWPORTWATCH 1m "September 27, 2006" "OpenIB" "OpenIB Diagnostics"
+
+.SH NAME
+ibswportwatch.pl \- poll the counters on the specified switch/port and report rate
+of change information.
+
+.SH SYNOPSIS
+.B ibswportwatch.pl
+[-p <pause_time> -v -n <cycles> -G] <guid|lid> <port>
+
+.SH DESCRIPTION
+.PP
+ibswportwatch.pl polls the port counters of the specified port and calculates rate
+of change information.
+
+.SH OPTIONS
+
+.PP
+.TP
+\fB\-p <pause_time>\fR
+Specify a pause time (polling interval) other than the default.
+.TP
+\fB\-v\fR
+Be verbose.
+.TP
+\fB\-n <cycles>\fR
+Run for a set number of poll intervals and stop.  (Default == -1 == forever)
+.TP
+\fB\-G\fR
+The address provided is a GUID rather than LID.
+
+.SH AUTHOR
+.TP
+Ira Weiny
+.RI < weiny2@llnl.gov >
+.\" Begin Sun update
+.SH ATTRIBUTES
+See
+.BR attributes (5)
+for descriptions of the following attributes:
+.sp
+.TS
+box;
+cbp-1 | cbp-1
+l | l .
+ATTRIBUTE TYPE	ATTRIBUTE VALUE
+_
+Availability	network/open-fabrics
+_
+Interface Stability	Volatile
+.TE 
+.PP
+.SH NOTES
+Source for OFED is available from http://www.openfabrics.org/.
+.\" End Sun update

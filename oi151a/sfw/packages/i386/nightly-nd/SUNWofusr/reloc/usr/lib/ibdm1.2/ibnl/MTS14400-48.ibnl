@@ -1,0 +1,443 @@
+
+SYSTEM LEAF,LEAF:12x, LEAF:12X
+
+ NODE SW 24 MT47396 U1
+  10 -12x-> J4_S9_S40_12x_P4
+  7  -12x-> J3_S9_S40_12x_P3
+  1  -12x-> J1_S9_S40_12x_P1
+  4  -12x-> J2_S9_S40_12x_P2
+  13 -12x-> J102_A3_K4
+  16 -12x-> J101_A3_K4
+  19 -12x-> J103_A7_K8
+  22 -12x-> J104_A7_K8
+
+SYSTEM SPINE, SPINE:12x, SPINE:12X
+
+ NODE SW 24 MT47396 U1
+  1 -12x-5G-> U3 7
+  4 -12x-5G-> U3 10
+  7 -12x-5G-> U5 1
+  10 -12x-5G-> U5 4
+  13 -12x-> J1_A9_K10
+  16 -12x-> J1_A21_K22
+  19 -12x-> J2_A9_K10
+  22 -12x-> J2_A21_K22
+
+ NODE SW 24 MT47396 U2
+  1 -12x-5G-> U4 7
+  4 -12x-5G-> U4 10
+  7 -12x-5G-> U6 1
+  10 -12x-5G-> U6 4
+  13 -12x-> J1_A3_K4
+  16 -12x-> J1_A15_K16
+  19 -12x-> J2_A3_K4
+  22 -12x-> J2_A15_K16
+
+ NODE SW 24 MT47396 U3
+  1 -12x-5G-> U5 7
+  4 -12x-5G-> U5 10
+  7 -12x-5G-> U1 1
+  10 -12x-5G-> U1 4
+  13 -12x-> J3_A9_K10
+  16 -12x-> J3_A21_K22
+  19 -12x-> J4_A9_K10
+  22 -12x-> J4_A21_K22
+
+ NODE SW 24 MT47396 U4
+  1 -12x-5G-> U6 7
+  4 -12x-5G-> U6 10
+  7 -12x-5G-> U2 1
+  10 -12x-5G-> U2 4
+  13 -12x-> J3_A3_K4
+  16 -12x-> J3_A15_K16
+  19 -12x-> J4_A3_K4
+  22 -12x-> J4_A15_K16
+
+ NODE SW 24 MT47396 U5
+  1 -12x-5G-> U1 7
+  4 -12x-5G-> U1 10
+  7 -12x-5G-> U3 1
+  10 -12x-5G-> U3 4
+  13 -12x-> J5_A9_K10
+  16 -12x-> J5_A21_K22
+  19 -12x-> J6_A9_K10
+  22 -12x-> J6_A21_K22
+
+ NODE SW 24 MT47396 U6
+  1 -12x-5G-> U2 7
+  4 -12x-5G-> U2 10
+  7 -12x-5G-> U4 1
+  10 -12x-5G-> U4 4
+  13 -12x-> J5_A3_K4
+  16 -12x-> J5_A15_K16
+  19 -12x-> J6_A3_K4
+  22 -12x-> J6_A15_K16
+
+TOPSYSTEM MTS14400-48,Rhino12X,Rhino-12x
+
+spine1/U1=isChaBma
+
+ SUBSYSTEM LEAF leaf1
+  J101_A1_K2 -12x-> spine2 J6_A5_K6
+  J101_A3_K4 -12x-> spine2 J6_A3_K4
+  J101_A5_K6 -12x-> spine2 J6_A1_K2
+  J102_A1_K2 -12x-> spine2 J6_A11_K12
+  J102_A3_K4 -12x-> spine2 J6_A9_K10
+  J102_A5_K6 -12x-> spine2 J6_A7_K8
+  J103_A5_K6 -12x-> spine1 J1_A17_K18
+  J103_A7_K8 -12x-> spine1 J1_A15_K16
+  J103_A9_K10 -12x-> spine1 J1_A13_K14
+  J104_A5_K6 -12x-> spine1 J1_A23_K24
+  J104_A7_K8 -12x-> spine1 J1_A21_K22
+  J104_A9_K10 -12x-> spine1 J1_A19_K20
+  J1_S9_S40_12x_P1 -12x-> L1/P1
+  J2_S9_S40_12x_P2 -12x-> L1/P2
+  J3_S9_S40_12x_P3 -12x-> L1/P3
+  J4_S9_S40_12x_P4 -12x-> L1/P4
+
+ SUBSYSTEM LEAF leaf2
+  J101_A1_K2 -12x-> spine2 J6_A17_K18
+  J101_A3_K4 -12x-> spine2 J6_A15_K16
+  J101_A5_K6 -12x-> spine2 J6_A13_K14
+  J102_A1_K2 -12x-> spine2 J6_A23_K24
+  J102_A3_K4 -12x-> spine2 J6_A21_K22
+  J102_A5_K6 -12x-> spine2 J6_A19_K20
+  J103_A5_K6 -12x-> spine1 J1_A5_K6
+  J103_A7_K8 -12x-> spine1 J1_A3_K4
+  J103_A9_K10 -12x-> spine1 J1_A1_K2
+  J104_A5_K6 -12x-> spine1 J1_A11_K12
+  J104_A7_K8 -12x-> spine1 J1_A9_K10
+  J104_A9_K10 -12x-> spine1 J1_A7_K8
+  J1_S9_S40_12x_P1 -12x-> L2/P1
+  J2_S9_S40_12x_P2 -12x-> L2/P2
+  J3_S9_S40_12x_P3 -12x-> L2/P3
+  J4_S9_S40_12x_P4 -12x-> L2/P4
+
+ SUBSYSTEM LEAF leaf3
+  J101_A1_K2 -12x-> spine2 J5_A5_K6
+  J101_A3_K4 -12x-> spine2 J5_A3_K4
+  J101_A5_K6 -12x-> spine2 J5_A1_K2
+  J102_A1_K2 -12x-> spine2 J5_A11_K12
+  J102_A3_K4 -12x-> spine2 J5_A9_K10
+  J102_A5_K6 -12x-> spine2 J5_A7_K8
+  J103_A5_K6 -12x-> spine1 J2_A17_K18
+  J103_A7_K8 -12x-> spine1 J2_A15_K16
+  J103_A9_K10 -12x-> spine1 J2_A13_K14
+  J104_A5_K6 -12x-> spine1 J2_A23_K24
+  J104_A7_K8 -12x-> spine1 J2_A21_K22
+  J104_A9_K10 -12x-> spine1 J2_A19_K20
+  J1_S9_S40_12x_P1 -12x-> L3/P1
+  J2_S9_S40_12x_P2 -12x-> L3/P2
+  J3_S9_S40_12x_P3 -12x-> L3/P3
+  J4_S9_S40_12x_P4 -12x-> L3/P4
+
+ SUBSYSTEM LEAF leaf4
+  J101_A1_K2 -12x-> spine2 J5_A17_K18
+  J101_A3_K4 -12x-> spine2 J5_A15_K16
+  J101_A5_K6 -12x-> spine2 J5_A13_K14
+  J102_A1_K2 -12x-> spine2 J5_A23_K24
+  J102_A3_K4 -12x-> spine2 J5_A21_K22
+  J102_A5_K6 -12x-> spine2 J5_A19_K20
+  J103_A5_K6 -12x-> spine1 J2_A5_K6
+  J103_A7_K8 -12x-> spine1 J2_A3_K4
+  J103_A9_K10 -12x-> spine1 J2_A1_K2
+  J104_A5_K6 -12x-> spine1 J2_A11_K12
+  J104_A7_K8 -12x-> spine1 J2_A9_K10
+  J104_A9_K10 -12x-> spine1 J2_A7_K8
+  J1_S9_S40_12x_P1 -12x-> L4/P1
+  J2_S9_S40_12x_P2 -12x-> L4/P2
+  J3_S9_S40_12x_P3 -12x-> L4/P3
+  J4_S9_S40_12x_P4 -12x-> L4/P4
+
+ SUBSYSTEM LEAF leaf5
+  J101_A1_K2 -12x-> spine2 J4_A5_K6
+  J101_A3_K4 -12x-> spine2 J4_A3_K4
+  J101_A5_K6 -12x-> spine2 J4_A1_K2
+  J102_A1_K2 -12x-> spine2 J4_A11_K12
+  J102_A3_K4 -12x-> spine2 J4_A9_K10
+  J102_A5_K6 -12x-> spine2 J4_A7_K8
+  J103_A5_K6 -12x-> spine1 J3_A17_K18
+  J103_A7_K8 -12x-> spine1 J3_A15_K16
+  J103_A9_K10 -12x-> spine1 J3_A13_K14
+  J104_A5_K6 -12x-> spine1 J3_A23_K24
+  J104_A7_K8 -12x-> spine1 J3_A21_K22
+  J104_A9_K10 -12x-> spine1 J3_A19_K20
+  J1_S9_S40_12x_P1 -12x-> L5/P1
+  J2_S9_S40_12x_P2 -12x-> L5/P2
+  J3_S9_S40_12x_P3 -12x-> L5/P3
+  J4_S9_S40_12x_P4 -12x-> L5/P4
+
+ SUBSYSTEM LEAF leaf6
+  J101_A1_K2 -12x-> spine2 J4_A17_K18
+  J101_A3_K4 -12x-> spine2 J4_A15_K16
+  J101_A5_K6 -12x-> spine2 J4_A13_K14
+  J102_A1_K2 -12x-> spine2 J4_A23_K24
+  J102_A3_K4 -12x-> spine2 J4_A21_K22
+  J102_A5_K6 -12x-> spine2 J4_A19_K20
+  J103_A5_K6 -12x-> spine1 J3_A5_K6
+  J103_A7_K8 -12x-> spine1 J3_A3_K4
+  J103_A9_K10 -12x-> spine1 J3_A1_K2
+  J104_A5_K6 -12x-> spine1 J3_A11_K12
+  J104_A7_K8 -12x-> spine1 J3_A9_K10
+  J104_A9_K10 -12x-> spine1 J3_A7_K8
+  J1_S9_S40_12x_P1 -12x-> L6/P1
+  J2_S9_S40_12x_P2 -12x-> L6/P2
+  J3_S9_S40_12x_P3 -12x-> L6/P3
+  J4_S9_S40_12x_P4 -12x-> L6/P4
+
+ SUBSYSTEM LEAF leaf7
+  J101_A1_K2 -12x-> spine2 J3_A5_K6
+  J101_A3_K4 -12x-> spine2 J3_A3_K4
+  J101_A5_K6 -12x-> spine2 J3_A1_K2
+  J102_A1_K2 -12x-> spine2 J3_A11_K12
+  J102_A3_K4 -12x-> spine2 J3_A9_K10
+  J102_A5_K6 -12x-> spine2 J3_A7_K8
+  J103_A5_K6 -12x-> spine1 J4_A17_K18
+  J103_A7_K8 -12x-> spine1 J4_A15_K16
+  J103_A9_K10 -12x-> spine1 J4_A13_K14
+  J104_A5_K6 -12x-> spine1 J4_A23_K24
+  J104_A7_K8 -12x-> spine1 J4_A21_K22
+  J104_A9_K10 -12x-> spine1 J4_A19_K20
+  J1_S9_S40_12x_P1 -12x-> L7/P1
+  J2_S9_S40_12x_P2 -12x-> L7/P2
+  J3_S9_S40_12x_P3 -12x-> L7/P3
+  J4_S9_S40_12x_P4 -12x-> L7/P4
+
+ SUBSYSTEM LEAF leaf8
+  J101_A1_K2 -12x-> spine2 J3_A17_K18
+  J101_A3_K4 -12x-> spine2 J3_A15_K16
+  J101_A5_K6 -12x-> spine2 J3_A13_K14
+  J102_A1_K2 -12x-> spine2 J3_A23_K24
+  J102_A3_K4 -12x-> spine2 J3_A21_K22
+  J102_A5_K6 -12x-> spine2 J3_A19_K20
+  J103_A5_K6 -12x-> spine1 J4_A5_K6
+  J103_A7_K8 -12x-> spine1 J4_A3_K4
+  J103_A9_K10 -12x-> spine1 J4_A1_K2
+  J104_A5_K6 -12x-> spine1 J4_A11_K12
+  J104_A7_K8 -12x-> spine1 J4_A9_K10
+  J104_A9_K10 -12x-> spine1 J4_A7_K8
+  J1_S9_S40_12x_P1 -12x-> L8/P1
+  J2_S9_S40_12x_P2 -12x-> L8/P2
+  J3_S9_S40_12x_P3 -12x-> L8/P3
+  J4_S9_S40_12x_P4 -12x-> L8/P4
+
+ SUBSYSTEM LEAF leaf9
+  J101_A1_K2 -12x-> spine2 J2_A5_K6
+  J101_A3_K4 -12x-> spine2 J2_A3_K4
+  J101_A5_K6 -12x-> spine2 J2_A1_K2
+  J102_A1_K2 -12x-> spine2 J2_A11_K12
+  J102_A3_K4 -12x-> spine2 J2_A9_K10
+  J102_A5_K6 -12x-> spine2 J2_A7_K8
+  J103_A5_K6 -12x-> spine1 J5_A17_K18
+  J103_A7_K8 -12x-> spine1 J5_A15_K16
+  J103_A9_K10 -12x-> spine1 J5_A13_K14
+  J104_A5_K6 -12x-> spine1 J5_A23_K24
+  J104_A7_K8 -12x-> spine1 J5_A21_K22
+  J104_A9_K10 -12x-> spine1 J5_A19_K20
+  J1_S9_S40_12x_P1 -12x-> L9/P1
+  J2_S9_S40_12x_P2 -12x-> L9/P2
+  J3_S9_S40_12x_P3 -12x-> L9/P3
+  J4_S9_S40_12x_P4 -12x-> L9/P4
+
+ SUBSYSTEM LEAF leaf10
+  J101_A1_K2 -12x-> spine2 J2_A17_K18
+  J101_A3_K4 -12x-> spine2 J2_A15_K16
+  J101_A5_K6 -12x-> spine2 J2_A13_K14
+  J102_A1_K2 -12x-> spine2 J2_A23_K24
+  J102_A3_K4 -12x-> spine2 J2_A21_K22
+  J102_A5_K6 -12x-> spine2 J2_A19_K20
+  J103_A5_K6 -12x-> spine1 J5_A5_K6
+  J103_A7_K8 -12x-> spine1 J5_A3_K4
+  J103_A9_K10 -12x-> spine1 J5_A1_K2
+  J104_A5_K6 -12x-> spine1 J5_A11_K12
+  J104_A7_K8 -12x-> spine1 J5_A9_K10
+  J104_A9_K10 -12x-> spine1 J5_A7_K8
+  J1_S9_S40_12x_P1 -12x-> L10/P1
+  J2_S9_S40_12x_P2 -12x-> L10/P2
+  J3_S9_S40_12x_P3 -12x-> L10/P3
+  J4_S9_S40_12x_P4 -12x-> L10/P4
+
+ SUBSYSTEM LEAF leaf11
+  J101_A1_K2 -12x-> spine2 J1_A5_K6
+  J101_A3_K4 -12x-> spine2 J1_A3_K4
+  J101_A5_K6 -12x-> spine2 J1_A1_K2
+  J102_A1_K2 -12x-> spine2 J1_A11_K12
+  J102_A3_K4 -12x-> spine2 J1_A9_K10
+  J102_A5_K6 -12x-> spine2 J1_A7_K8
+  J103_A5_K6 -12x-> spine1 J6_A17_K18
+  J103_A7_K8 -12x-> spine1 J6_A15_K16
+  J103_A9_K10 -12x-> spine1 J6_A13_K14
+  J104_A5_K6 -12x-> spine1 J6_A23_K24
+  J104_A7_K8 -12x-> spine1 J6_A21_K22
+  J104_A9_K10 -12x-> spine1 J6_A19_K20
+  J1_S9_S40_12x_P1 -12x-> L11/P1
+  J2_S9_S40_12x_P2 -12x-> L11/P2
+  J3_S9_S40_12x_P3 -12x-> L11/P3
+  J4_S9_S40_12x_P4 -12x-> L11/P4
+
+ SUBSYSTEM LEAF leaf12
+  J101_A1_K2 -12x-> spine2 J1_A17_K18
+  J101_A3_K4 -12x-> spine2 J1_A15_K16
+  J101_A5_K6 -12x-> spine2 J1_A13_K14
+  J102_A1_K2 -12x-> spine2 J1_A23_K24
+  J102_A3_K4 -12x-> spine2 J1_A21_K22
+  J102_A5_K6 -12x-> spine2 J1_A19_K20
+  J103_A5_K6 -12x-> spine1 J6_A5_K6
+  J103_A7_K8 -12x-> spine1 J6_A3_K4
+  J103_A9_K10 -12x-> spine1 J6_A1_K2
+  J104_A5_K6 -12x-> spine1 J6_A11_K12
+  J104_A7_K8 -12x-> spine1 J6_A9_K10
+  J104_A9_K10 -12x-> spine1 J6_A7_K8
+  J1_S9_S40_12x_P1 -12x-> L12/P1
+  J2_S9_S40_12x_P2 -12x-> L12/P2
+  J3_S9_S40_12x_P3 -12x-> L12/P3
+  J4_S9_S40_12x_P4 -12x-> L12/P4
+
+ SUBSYSTEM SPINE spine2
+  J1_A11_K12 -12x-> leaf11 J102_A1_K2
+  J1_A13_K14 -12x-> leaf12 J101_A5_K6
+  J1_A15_K16 -12x-> leaf12 J101_A3_K4
+  J1_A17_K18 -12x-> leaf12 J101_A1_K2
+  J1_A19_K20 -12x-> leaf12 J102_A5_K6
+  J1_A1_K2 -12x-> leaf11 J101_A5_K6
+  J1_A21_K22 -12x-> leaf12 J102_A3_K4
+  J1_A23_K24 -12x-> leaf12 J102_A1_K2
+  J1_A3_K4 -12x-> leaf11 J101_A3_K4
+  J1_A5_K6 -12x-> leaf11 J101_A1_K2
+  J1_A7_K8 -12x-> leaf11 J102_A5_K6
+  J1_A9_K10 -12x-> leaf11 J102_A3_K4
+  J2_A11_K12 -12x-> leaf9 J102_A1_K2
+  J2_A13_K14 -12x-> leaf10 J101_A5_K6
+  J2_A15_K16 -12x-> leaf10 J101_A3_K4
+  J2_A17_K18 -12x-> leaf10 J101_A1_K2
+  J2_A19_K20 -12x-> leaf10 J102_A5_K6
+  J2_A1_K2 -12x-> leaf9 J101_A5_K6
+  J2_A21_K22 -12x-> leaf10 J102_A3_K4
+  J2_A23_K24 -12x-> leaf10 J102_A1_K2
+  J2_A3_K4 -12x-> leaf9 J101_A3_K4
+  J2_A5_K6 -12x-> leaf9 J101_A1_K2
+  J2_A7_K8 -12x-> leaf9 J102_A5_K6
+  J2_A9_K10 -12x-> leaf9 J102_A3_K4
+  J3_A11_K12 -12x-> leaf7 J102_A1_K2
+  J3_A13_K14 -12x-> leaf8 J101_A5_K6
+  J3_A15_K16 -12x-> leaf8 J101_A3_K4
+  J3_A17_K18 -12x-> leaf8 J101_A1_K2
+  J3_A19_K20 -12x-> leaf8 J102_A5_K6
+  J3_A1_K2 -12x-> leaf7 J101_A5_K6
+  J3_A21_K22 -12x-> leaf8 J102_A3_K4
+  J3_A23_K24 -12x-> leaf8 J102_A1_K2
+  J3_A3_K4 -12x-> leaf7 J101_A3_K4
+  J3_A5_K6 -12x-> leaf7 J101_A1_K2
+  J3_A7_K8 -12x-> leaf7 J102_A5_K6
+  J3_A9_K10 -12x-> leaf7 J102_A3_K4
+  J4_A11_K12 -12x-> leaf5 J102_A1_K2
+  J4_A13_K14 -12x-> leaf6 J101_A5_K6
+  J4_A15_K16 -12x-> leaf6 J101_A3_K4
+  J4_A17_K18 -12x-> leaf6 J101_A1_K2
+  J4_A19_K20 -12x-> leaf6 J102_A5_K6
+  J4_A1_K2 -12x-> leaf5 J101_A5_K6
+  J4_A21_K22 -12x-> leaf6 J102_A3_K4
+  J4_A23_K24 -12x-> leaf6 J102_A1_K2
+  J4_A3_K4 -12x-> leaf5 J101_A3_K4
+  J4_A5_K6 -12x-> leaf5 J101_A1_K2
+  J4_A7_K8 -12x-> leaf5 J102_A5_K6
+  J4_A9_K10 -12x-> leaf5 J102_A3_K4
+  J5_A11_K12 -12x-> leaf3 J102_A1_K2
+  J5_A13_K14 -12x-> leaf4 J101_A5_K6
+  J5_A15_K16 -12x-> leaf4 J101_A3_K4
+  J5_A17_K18 -12x-> leaf4 J101_A1_K2
+  J5_A19_K20 -12x-> leaf4 J102_A5_K6
+  J5_A1_K2 -12x-> leaf3 J101_A5_K6
+  J5_A21_K22 -12x-> leaf4 J102_A3_K4
+  J5_A23_K24 -12x-> leaf4 J102_A1_K2
+  J5_A3_K4 -12x-> leaf3 J101_A3_K4
+  J5_A5_K6 -12x-> leaf3 J101_A1_K2
+  J5_A7_K8 -12x-> leaf3 J102_A5_K6
+  J5_A9_K10 -12x-> leaf3 J102_A3_K4
+  J6_A11_K12 -12x-> leaf1 J102_A1_K2
+  J6_A13_K14 -12x-> leaf2 J101_A5_K6
+  J6_A15_K16 -12x-> leaf2 J101_A3_K4
+  J6_A17_K18 -12x-> leaf2 J101_A1_K2
+  J6_A19_K20 -12x-> leaf2 J102_A5_K6
+  J6_A1_K2 -12x-> leaf1 J101_A5_K6
+  J6_A21_K22 -12x-> leaf2 J102_A3_K4
+  J6_A23_K24 -12x-> leaf2 J102_A1_K2
+  J6_A3_K4 -12x-> leaf1 J101_A3_K4
+  J6_A5_K6 -12x-> leaf1 J101_A1_K2
+  J6_A7_K8 -12x-> leaf1 J102_A5_K6
+  J6_A9_K10 -12x-> leaf1 J102_A3_K4
+
+ SUBSYSTEM SPINE spine1
+  J1_A11_K12 -12x-> leaf2 J104_A5_K6
+  J1_A13_K14 -12x-> leaf1 J103_A9_K10
+  J1_A15_K16 -12x-> leaf1 J103_A7_K8
+  J1_A17_K18 -12x-> leaf1 J103_A5_K6
+  J1_A19_K20 -12x-> leaf1 J104_A9_K10
+  J1_A1_K2 -12x-> leaf2 J103_A9_K10
+  J1_A21_K22 -12x-> leaf1 J104_A7_K8
+  J1_A23_K24 -12x-> leaf1 J104_A5_K6
+  J1_A3_K4 -12x-> leaf2 J103_A7_K8
+  J1_A5_K6 -12x-> leaf2 J103_A5_K6
+  J1_A7_K8 -12x-> leaf2 J104_A9_K10
+  J1_A9_K10 -12x-> leaf2 J104_A7_K8
+  J2_A11_K12 -12x-> leaf4 J104_A5_K6
+  J2_A13_K14 -12x-> leaf3 J103_A9_K10
+  J2_A15_K16 -12x-> leaf3 J103_A7_K8
+  J2_A17_K18 -12x-> leaf3 J103_A5_K6
+  J2_A19_K20 -12x-> leaf3 J104_A9_K10
+  J2_A1_K2 -12x-> leaf4 J103_A9_K10
+  J2_A21_K22 -12x-> leaf3 J104_A7_K8
+  J2_A23_K24 -12x-> leaf3 J104_A5_K6
+  J2_A3_K4 -12x-> leaf4 J103_A7_K8
+  J2_A5_K6 -12x-> leaf4 J103_A5_K6
+  J2_A7_K8 -12x-> leaf4 J104_A9_K10
+  J2_A9_K10 -12x-> leaf4 J104_A7_K8
+  J3_A11_K12 -12x-> leaf6 J104_A5_K6
+  J3_A13_K14 -12x-> leaf5 J103_A9_K10
+  J3_A15_K16 -12x-> leaf5 J103_A7_K8
+  J3_A17_K18 -12x-> leaf5 J103_A5_K6
+  J3_A19_K20 -12x-> leaf5 J104_A9_K10
+  J3_A1_K2 -12x-> leaf6 J103_A9_K10
+  J3_A21_K22 -12x-> leaf5 J104_A7_K8
+  J3_A23_K24 -12x-> leaf5 J104_A5_K6
+  J3_A3_K4 -12x-> leaf6 J103_A7_K8
+  J3_A5_K6 -12x-> leaf6 J103_A5_K6
+  J3_A7_K8 -12x-> leaf6 J104_A9_K10
+  J3_A9_K10 -12x-> leaf6 J104_A7_K8
+  J4_A11_K12 -12x-> leaf8 J104_A5_K6
+  J4_A13_K14 -12x-> leaf7 J103_A9_K10
+  J4_A15_K16 -12x-> leaf7 J103_A7_K8
+  J4_A17_K18 -12x-> leaf7 J103_A5_K6
+  J4_A19_K20 -12x-> leaf7 J104_A9_K10
+  J4_A1_K2 -12x-> leaf8 J103_A9_K10
+  J4_A21_K22 -12x-> leaf7 J104_A7_K8
+  J4_A23_K24 -12x-> leaf7 J104_A5_K6
+  J4_A3_K4 -12x-> leaf8 J103_A7_K8
+  J4_A5_K6 -12x-> leaf8 J103_A5_K6
+  J4_A7_K8 -12x-> leaf8 J104_A9_K10
+  J4_A9_K10 -12x-> leaf8 J104_A7_K8
+  J5_A11_K12 -12x-> leaf10 J104_A5_K6
+  J5_A13_K14 -12x-> leaf9 J103_A9_K10
+  J5_A15_K16 -12x-> leaf9 J103_A7_K8
+  J5_A17_K18 -12x-> leaf9 J103_A5_K6
+  J5_A19_K20 -12x-> leaf9 J104_A9_K10
+  J5_A1_K2 -12x-> leaf10 J103_A9_K10
+  J5_A21_K22 -12x-> leaf9 J104_A7_K8
+  J5_A23_K24 -12x-> leaf9 J104_A5_K6
+  J5_A3_K4 -12x-> leaf10 J103_A7_K8
+  J5_A5_K6 -12x-> leaf10 J103_A5_K6
+  J5_A7_K8 -12x-> leaf10 J104_A9_K10
+  J5_A9_K10 -12x-> leaf10 J104_A7_K8
+  J6_A11_K12 -12x-> leaf12 J104_A5_K6
+  J6_A13_K14 -12x-> leaf11 J103_A9_K10
+  J6_A15_K16 -12x-> leaf11 J103_A7_K8
+  J6_A17_K18 -12x-> leaf11 J103_A5_K6
+  J6_A19_K20 -12x-> leaf11 J104_A9_K10
+  J6_A1_K2 -12x-> leaf12 J103_A9_K10
+  J6_A21_K22 -12x-> leaf11 J104_A7_K8
+  J6_A23_K24 -12x-> leaf11 J104_A5_K6
+  J6_A3_K4 -12x-> leaf12 J103_A7_K8
+  J6_A5_K6 -12x-> leaf12 J103_A5_K6
+  J6_A7_K8 -12x-> leaf12 J104_A9_K10
+  J6_A9_K10 -12x-> leaf12 J104_A7_K8
+

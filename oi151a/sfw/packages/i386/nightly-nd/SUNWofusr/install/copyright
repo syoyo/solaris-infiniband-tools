@@ -1,0 +1,3170 @@
+DO NOT TRANSLATE OR LOCALIZE.
+
+Oracle elects to use this software under and governed by the  OpenIB.org BSD
+license (see below for details) for any software where a choice of
+OpenIB.org BSD license or the GNU General Public License (GPL) Version 2 are
+made available with the language indicating that OpenIB.org BSD license or the
+GNU General Public License (GPL) Version 2 may be used.  Unless specifically
+stated otherwise, where a choice exists between another license and either the
+OpenIB.org BSD license or the GPL, Oracle chooses the OpenIB.org BSD license.
+
+The Software contains the following Copyrights, which are reproduced for
+this distribution as per OpenIB.org BSD license conditions:
+
+ibutils-1.2/COPYING:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/INSTALL:
+Copyright (C) 1994, 1995, 1996, 1999, 2000, 2001, 2002, 2004 Free
+Software Foundation, Inc.
+
+ibutils-1.2/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+ibutils-1.2/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+ibutils-1.2/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+ibutils-1.2/ibutils.spec.in
+Copyright (c) 2006 Mellanox Technologies. All rights reserved.
+
+ibutils-1.2/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+ibutils-1.2/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+ibutils-1.2/ibdiag/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdiag/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibdiag/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibdiag/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+ibutils-1.2/ibdiag/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+ibutils-1.2/ibdiag/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+ibutils-1.2/ibdiag/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+ibutils-1.2/ibdiag/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+ibutils-1.2/ibdiag/doc/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdiag/doc/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdiag/src/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdiag/src/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdiag/src/ibdiagnet.tcl:
+Copyright (c) 2005 Mellanox Technologies. All rights reserved.
+
+ibutils-1.2/ibdiag/src/ibdiagpath.tcl:
+Copyright (c) 2005 Mellanox Technologies. All rights reserved.
+
+ibutils-1.2/ibdm/COPYING:
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+ibutils-1.2/ibdm/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/config/config.sub:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/config/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+ibutils-1.2/ibdm/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+ibutils-1.2/ibdm/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+ibutils-1.2/ibdm/config/ylwrap:
+Copyright (C) 1996, 1997, 1998, 1999, 2001, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/datamodel/Congestion.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/Congestion.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/CredLoops.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/CredLoops.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/Fabric.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/Fabric.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/FatTree.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/LinkCover.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/Regexp.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/SubnMgt.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/SubnMgt.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/SysDef.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/SysDef.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/TopoMatch.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/TopoMatch.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/TraceRoute.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/TraceRoute.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/fixSwigWrapper:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/ibdm.i:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/ibdm_wrap.cpp:
+Portions Copyright (c) 1995-1998
+The University of Utah and The Regents of the University of California.
+
+ibutils-1.2/ibdm/datamodel/ibdmsh_wrap.cpp:
+Portions Copyright (c) 1995-1998
+The University of Utah and The Regents of the University of California.
+
+ibutils-1.2/ibdm/datamodel/ibnl_parser.cc:
+Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004 Free Software Foundation, Inc
+
+ibutils-1.2/ibdm/datamodel/ibnl_parser.h:
+Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004 Free Software Foundation, Inc
+
+ibutils-1.2/ibdm/datamodel/ibnl_parser.yy:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/ibnl_scanner.ll:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/datamodel/swig_alternate_mangling.cpp
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/doc/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibdm/doc/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+ 2003, 2004, 2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/replace/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/replace/malloc.c:
+Copyright (C) 1997, 1998 Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/replace/memset.c:
+Copyright (C) 1991 Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/replace/realloc.c:
+ Copyright (C) 1997 Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/replace/regex.c:
+Copyright (C) 1993, 94, 95, 96, 97, 98, 99 Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/replace/regex.h:
+Copyright (C) 1985,89,90,91,92,93,95,96,97,98 Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/src/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibdm/src/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibdm/src/fabric_sim.cpp:
+Copyright (C) Jan. 2004, Mellanox Technologies Ltd.  ALL RIGHTS RESERVED.
+
+ibutils-1.2/ibdm/src/fabric_tr.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/src/osm_check.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/src/test_ibnl_parser.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibdm/src/test_topo_match.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/COPYING:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/INSTALL:
+Copyright (C) 1994, 1995, 1996, 1999, 2000, 2001, 2002, 2004, 2005 Free
+Software Foundation, Inc.
+
+ibutils-1.2/ibis/LICENSE:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibis/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibis/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+ibutils-1.2/ibis/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+ibutils-1.2/ibis/config/config.sub:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+ibutils-1.2/ibis/config/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+ibutils-1.2/ibis/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+ibutils-1.2/ibis/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+ibutils-1.2/ibis/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+ibutils-1.2/ibis/doc/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/doc/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibis/src/ibbbm.c:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibbbm.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibbbm.i:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibbbm_base.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibcr.c:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibcr.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibcr.i:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibcr_base.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibis.c:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibis.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibis.i:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibis_api.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibis_base.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibis_gsi_mad_ctrl.c:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibis_gsi_mad_ctrl.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibis_typemaps.i:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibis_wrap.c:
+Portions Copyright (c) 1995-1998
+The University of Utah and The Regents of the University of California.
+
+ibutils-1.2/ibis/src/ibissh_wrap.cpp:
+Portions Copyright (c) 1995-1998
+The University of Utah and The Regents of the University of California.
+
+ibutils-1.2/ibis/src/ibpm.c:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibpm.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibpm.i:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibpm_base.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibsac.c:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibsac.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibsac.i:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibsm.c:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibsm.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibsm.i:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibvs.c:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibvs.i:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/ibvs_base.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/src/swig_extended_obj.c:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibis/tests/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibmgtsim/COPYING:
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+ibutils-1.2/ibmgtsim/INSTALL:
+Copyright (C) 1994, 1995, 1996, 1999, 2000, 2001, 2002, 2004, 2005 Free
+Software Foundation, Inc.
+
+ibutils-1.2/ibmgtsim/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibmgtsim/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibmgtsim/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibmgtsim/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+ibutils-1.2/ibmgtsim/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+ibutils-1.2/ibmgtsim/config/config.sub:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+ibutils-1.2/ibmgtsim/config/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+ibutils-1.2/ibmgtsim/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+ibutils-1.2/ibmgtsim/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+ibutils-1.2/ibmgtsim/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+ibutils-1.2/ibmgtsim/doc/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibmgtsim/doc/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibmgtsim/src/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+ibutils-1.2/ibmgtsim/src/client.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/dispatcher.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/dispatcher.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/helper.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/ib_types.i:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/ib_types_extend.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/ibms_client_api.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/ibmssh_wrap.cpp:
+Portions Copyright (c) 1995-1998
+The University of Utah and The Regents of the University of California.
+
+ibutils-1.2/ibmgtsim/src/mads.i:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/msgmgr.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/msgmgr.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/node.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/node.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/pma.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/pma.h
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/randmgr.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/randmgr.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/server.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/server.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/sim.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/sim.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/sim.i:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/simmsg.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/simmsg.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/sma.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/sma.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/swig_alternate_mangling.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/tcpcomm.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/tcpcomm.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/vsa.cpp:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/src/vsa.h:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved
+
+ibutils-1.2/ibmgtsim/tests/Makefile.am
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibmgtsim/tests/Makefile.in
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibmgtsim/utils/IBMgtSim:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibmgtsim/utils/LICENSE.txt:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibmgtsim/utils/Makefile.am:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibmgtsim/utils/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibmgtsim/utils/RunSimTest:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibmgtsim/utils/fixSwigWrapper:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibmgtsim/utils/header.c:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibmgtsim/utils/header.sh:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibmgtsim/utils/install.sh:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+ibutils-1.2/ibmgtsim/utils/uninstall.sh:
+Copyright (c) 2004 Mellanox Technologies LTD. All rights reserved.
+
+infiniband-diags-1.3.6/COPYING:
+Copyright (c) 2004, 2005 Voltaire, Inc.  All rights reserved
+
+infiniband-diags-1.3.6/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+infiniband-diags-1.3.6/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+infiniband-diags-1.3.6/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+infiniband-diags-1.3.6/config/compile:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+Written by Tom Tromey <tromey@cygnus.com>.
+
+infiniband-diags-1.3.6/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+infiniband-diags-1.3.6/config/config.sub:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+infiniband-diags-1.3.6/config/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+infiniband-diags-1.3.6/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+infiniband-diags-1.3.6/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+infiniband-diags-1.3.6/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+infiniband-diags-1.3.6/include/grouping.h:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+Copyright (c) 2007 Xsigo Systems Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/include/ibdiag_common.h:
+Copyright (c) 2006-2007 The Regents of the University of California.
+Copyright (c) 2004-2006 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/include/ibdiag_version.h:
+Copyright (c) 2008 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/include/ibdiag_version.h.in:
+Copyright (c) 2008 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/include/ibnetdiscover.h:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+Copyright (c) 2007 Xsigo Systems Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/scripts/IBswcountlimits.pm:
+Copyright (c) 2006 The Regents of the University of California.
+Copyright (c) 2006-2007 Voltaire, Inc. All rights reserved.
+
+infiniband-diags-1.3.6/scripts/ibfindnodesusing.pl:
+Copyright (C) 2001-2003 The Regents of the University of California.
+Copyright (c) 2006 The Regents of the University of California.
+Copyright (c) 2007 Voltaire, Inc. All rights reserved.
+
+infiniband-diags-1.3.6/scripts/ibidsverify.pl:
+Copyright (c) 2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2006 The Regents of the University of California.
+
+infiniband-diags-1.3.6/scripts/iblinkinfo.pl:
+Copyright (c) 2006 The Regents of the University of California.
+Copyright (c) 2007 Voltaire, Inc. All rights reserved.
+
+infiniband-diags-1.3.6/scripts/ibprintca.pl:
+Copyright (c) 2006 The Regents of the University of California.
+Copyright (c) 2007 Voltaire, Inc. All rights reserved.
+
+infiniband-diags-1.3.6/scripts/ibprintrt.pl:
+Copyright (c) 2006 The Regents of the University of California.
+Copyright (c) 2007 Voltaire, Inc. All rights reserved.
+
+infiniband-diags-1.3.6/scripts/ibprintswitch.pl:
+Copyright (c) 2006 The Regents of the University of California.
+
+infiniband-diags-1.3.6/scripts/ibqueryerrors.pl:
+Copyright (c) 2006 The Regents of the University of California.
+
+infiniband-diags-1.3.6/scripts/ibswportwatch.pl:
+Copyright (c) 2006 The Regents of the University of California.
+
+infiniband-diags-1.3.6/src/solaris_set_nodedesc.c:
+Copyright (c) 2010, Oracle and/or its affiliates. All rights reserved.
+
+infiniband-diags-1.3.6/src/grouping.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+Copyright (c) 2007 Xsigo Systems Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/src/ibaddr.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/src/ibdiag_common.c:
+Copyright (c) 2006-2007 The Regents of the University of California.
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+
+infiniband-diags-1.3.6/src/ibnetdiscover.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+Copyright (c) 2007 Xsigo Systems Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/src/ibping.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/src/ibportstate.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/src/ibroute.c:
+Copyright (c) 2004-2006 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/src/ibstat.c:
+Copyright (c) 2004-2006 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/src/ibsysstat.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/src/ibtracert.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/src/mcm_rereg_test.c:
+Copyright (c) 2006 Voltaire, Inc. All rights reserved.
+
+infiniband-diags-1.3.6/src/perfquery.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+Copyright (c) 2007 Xsigo Systems Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/src/saquery.c:
+Copyright (c) 2006,2007 The Regents of the University of California.
+Copyright (c) 2004-2008 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+infiniband-diags-1.3.6/src/sminfo.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/src/smpdump.c:
+Copyright (c) 2004-2006 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/src/smpquery.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/src/vendstat.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/include/grouping.h:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+Copyright (c) 2007 Xsigo Systems Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/include/ibdiag_common.h:
+Copyright (c) 2006-2007 The Regents of the University of California.
+Copyright (c) 2004-2006 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/include/ibdiag_version.h:
+Copyright (c) 2008 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/include/ibdiag_version.h.in:
+Copyright (c) 2008 Voltaire Inc.  All rights reserved.
+
+infiniband-diags-1.3.6/include/ibnetdiscover.h:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+Copyright (c) 2007 Xsigo Systems Inc.  All rights reserved.
+
+libibcommon-1.0.8/COPYING:
+Copyright (c) 2004, 2005 Voltaire, Inc.  All rights reserved
+
+libibcommon-1.0.8/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+libibcommon-1.0.8/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+libibcommon-1.0.8/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+libibcommon-1.0.8/config/compile:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+Written by Tom Tromey <tromey@cygnus.com>.
+
+libibcommon-1.0.8/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libibcommon-1.0.8/config/config.sub:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libibcommon-1.0.8/config/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libibcommon-1.0.8/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+libibcommon-1.0.8/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+libibcommon-1.0.8/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+libibcommon-1.0.8/src/hash.c:
+Copyright (c) 2005 Voltaire Inc.  All rights reserved.
+
+libibcommon-1.0.8/src/stack.c:
+Copyright (c) 2004,2005 Voltaire Inc.  All rights reserved.
+
+libibcommon-1.0.8/src/sysfs.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+libibcommon-1.0.8/src/time.c:
+Copyright (c) 2004,2005 Voltaire Inc.  All rights reserved.
+
+libibcommon-1.0.8/src/util.c:
+Copyright (c) 2004,2005 Voltaire Inc.  All rights reserved
+
+libibcommon-1.0.8/include/infiniband/common.h:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+libibmad-1.1.6/COPYING:
+Copyright (c) 2004, 2005 Voltaire, Inc.  All rights reserved
+
+libibmad-1.1.6/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+libibmad-1.1.6/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+libibmad-1.1.6/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+libibmad-1.1.6/config/compile:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+Written by Tom Tromey <tromey@cygnus.com>.
+
+libibmad-1.1.6/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libibmad-1.1.6/config/config.sub:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libibmad-1.1.6/config/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libibmad-1.1.6/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+libibmad-1.1.6/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+libibmad-1.1.6/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+libibmad-1.1.6/src/dump.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+Copyright (c) 2007 Xsigo Systems Inc.  All rights reserved.
+
+libibmad-1.1.6/src/fields.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+libibmad-1.1.6/src/gs.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+libibmad-1.1.6/src/mad.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+libibmad-1.1.6/src/portid.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+libibmad-1.1.6/src/register.c:
+Copyright (c) 2004,2005 Voltaire Inc.  All rights reserved.
+
+libibmad-1.1.6/src/resolve.c:
+Copyright (c) 2004-2006 Voltaire Inc.  All rights reserved.
+
+libibmad-1.1.6/src/rpc.c:
+Copyright (c) 2004-2006 Voltaire Inc.  All rights reserved.
+
+libibmad-1.1.6/src/sa.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+libibmad-1.1.6/src/serv.c:
+Copyright (c) 2004,2005 Voltaire Inc.  All rights reserved.
+
+libibmad-1.1.6/src/smp.c:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+libibmad-1.1.6/src/vendor.c:
+Copyright (c) 2004,2005 Voltaire Inc.  All rights reserved.
+
+libibmad-1.1.6/include/infiniband/mad.h:
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+libibumad-1.1.7/COPYING:
+Copyright (c) 2004, 2005 Voltaire, Inc.  All rights reserved
+
+libibumad-1.1.7/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+libibumad-1.1.7/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+libibumad-1.1.7/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+libibumad-1.1.7/config/compile:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+Written by Tom Tromey <tromey@cygnus.com>.
+
+libibumad-1.1.7/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libibumad-1.1.7/config/config.sub:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libibumad-1.1.7/config/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libibumad-1.1.7/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+libibumad-1.1.7/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+libibumad-1.1.7/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+libibumad-1.1.7/src/umad.c
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+libibumad-1.1.7/include/infiniband/umad.h
+Copyright (c) 2004-2007 Voltaire Inc.  All rights reserved.
+
+libibverbs-1.1.1/COPYING:
+Copyright (c) 2004 Topspin Communications.  All rights reserved.
+
+libibverbs-1.1.1/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+libibverbs-1.1.1/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+libibverbs-1.1.1/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+libibverbs-1.1.1/config/compile:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+Written by Tom Tromey <tromey@cygnus.com>.
+
+libibverbs-1.1.1/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libibverbs-1.1.1/config/config.sub:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libibverbs-1.1.1/config/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libibverbs-1.1.1/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+libibverbs-1.1.1/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+libibverbs-1.1.1/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+libibverbs-1.1.1/examples/pingpong.h:
+Copyright (c) 2006 Cisco Systems.  All rights reserved.
+
+libibverbs-1.1.1/examples/asyncwatch.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+
+libibverbs-1.1.1/examples/device_list.c:
+Copyright (c) 2004 Topspin Communications.  All rights reserved.
+
+libibverbs-1.1.1/examples/devinfo.c:
+Copyright (c) 2005 Cisco Systems.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+
+libibverbs-1.1.1/examples/pingpong.c:
+Copyright (c) 2006 Cisco Systems.  All rights reserved.
+
+libibverbs-1.1.1/examples/rc_pingpong.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+
+libibverbs-1.1.1/examples/srq_pingpong.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+
+libibverbs-1.1.1/examples/ud_pingpong.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+
+libibverbs-1.1.1/examples/uc_pingpong.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+
+libibverbs-1.1.1/include/infiniband/arch.h:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+ 
+libibverbs-1.1.1/include/infiniband/driver.h:
+Copyright (c) 2004, 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005, 2006 Cisco Systems, Inc.  All rights reserved.
+Copyright (c) 2005 PathScale, Inc.  All rights reserved.
+ 
+libibverbs-1.1.1/include/infiniband/kern-abi.h:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005, 2006 Cisco Systems.  All rights reserved.
+Copyright (c) 2005 PathScale, Inc.  All rights reserved.
+ 
+libibverbs-1.1.1/include/infiniband/marshall.h:
+Copyright (c) 2005 Intel Corporation.  All rights reserved.
+ 
+libibverbs-1.1.1/include/infiniband/opcode.h:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+ 
+libibverbs-1.1.1/include/infiniband/sa-kern-abi.h:
+Copyright (c) 2005 Intel Corporation.  All rights reserved.
+ 
+libibverbs-1.1.1/include/infiniband/sa.h:
+Copyright (c) 2004 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Voltaire, Inc. All rights reserved.
+
+libibverbs-1.1.1/include/infiniband/ofa_solaris.h:
+Copyright (c) 2010, Oracle and/or its affiliates. All rights reserved.
+ 
+libibverbs-1.1.1/include/infiniband/verbs.h:
+Copyright (c) 2004, 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2004 Intel Corporation.  All rights reserved.
+Copyright (c) 2005, 2006, 2007 Cisco Systems, Inc.  All rights reserved.
+Copyright (c) 2005 PathScale, Inc.  All rights reserved.
+
+libibverbs-1.1.1/src/ibverbs.h:
+Copyright (c) 2004, 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2007 Cisco Systems, Inc.  All rights reserved.
+ 
+libibverbs-1.1.1/src/kern_abi.h:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+ 
+libibverbs-1.1.1/src/cmd.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 PathScale, Inc.  All rights reserved.
+Copyright (c) 2006 Cisco Systems, Inc.  All rights reserved.
+ 
+libibverbs-1.1.1/src/compat-1_0.c:
+Copyright (c) 2007 Cisco Systems, Inc.  All rights reserved.
+ 
+libibverbs-1.1.1/src/device.c:
+Copyright (c) 2004, 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2006, 2007 Cisco Systems, Inc.  All rights reserved.
+ 
+libibverbs-1.1.1/src/init.c:
+Copyright (c) 2004, 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2006 Cisco Systems, Inc.  All rights reserved.
+ 
+libibverbs-1.1.1/src/marshall.c:
+Copyright (c) 2005 Intel Corporation.  All rights reserved.
+ 
+libibverbs-1.1.1/src/memory.c:
+Copyright (c) 2004, 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2006 Cisco Systems, Inc.  All rights reserved.
+ 
+libibverbs-1.1.1/src/sysfs.c:
+Copyright (c) 2006 Cisco Systems, Inc.  All rights reserved.
+
+libibverbs-1.1.1/src/solaris_compatibility.c
+Copyright (c) 2010, Oracle and/or its affiliates. All rights reserved.
+
+libibverbs-1.1.1/src/verbs.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2006, 2007 Cisco Systems, Inc.  All rights reserved.
+
+
+libmlx4-1.0/COPYING:
+Copyright (c) 2007 Cisco, Inc.  All rights reserved.
+
+libmlx4-1.0/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+libmlx4-1.0/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+libmlx4-1.0/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+libmlx4-1.0/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libmlx4-1.0/config/config.sub:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libmlx4-1.0/config/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libmlx4-1.0/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+libmlx4-1.0/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+libmlx4-1.0/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+libmlx4-1.0/src/doorbell.h
+Copyright (c) 2007 Cisco, Inc.  All rights reserved.
+
+libmlx4-1.0/src/mlx4-abi.h:
+Copyright (c) 2007 Cisco, Inc.  All rights reserved.
+
+libmlx4-1.0/src/mlx4.h:
+Copyright (c) 2004, 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005, 2006, 2007 Cisco Systems.  All rights reserved.
+
+libmlx4-1.0/src/wqe.h:
+Copyright (c) 2007 Cisco, Inc.  All rights reserved.
+
+libmlx4-1.0/src/buf.c:
+Copyright (c) 2006, 2007 Cisco, Inc.  All rights reserved.
+
+libmlx4-1.0/src/cq.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+Copyright (c) 2006, 2007 Cisco Systems.  All rights reserved.
+
+libmlx4-1.0/src/dbrec.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+
+libmlx4-1.0/src/mlx4.c:
+Copyright (c) 2007 Cisco, Inc.  All rights reserved.
+
+libmlx4-1.0/src/qp.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+Copyright (c) 2007 Cisco, Inc.  All rights reserved.
+ 
+libmlx4-1.0/src/srq.c:
+Copyright (c) 2007 Cisco, Inc.  All rights reserved.
+ 
+libmlx4-1.0/src/verbs.c:
+Copyright (c) 2007 Cisco, Inc.  All rights reserved.
+
+libmthca-1.0.4/COPYING:
+Copyright (c) 2004 Topspin Communications.  All rights reserved.
+
+libmthca-1.0.4/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+libmthca-1.0.4/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+libmthca-1.0.4/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+libmthca-1.0.4/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libmthca-1.0.4/config/config.sub:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libmthca-1.0.4/config/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libmthca-1.0.4/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+libmthca-1.0.4/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+libmthca-1.0.4/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+libmthca-1.0.4/src/doorbell.h:
+Copyright (c) 2004, 2005 Topspin Communications.  All rights reserved.
+
+libmthca-1.0.4/src/mthca-abi.h:
+Copyright (c) 2004, 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2006 Cisco Systems.  All rights reserved.
+
+libmthca-1.0.4/src/mthca.h
+Copyright (c) 2004, 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005, 2006 Cisco Systems.  All rights reserved.
+
+libmthca-1.0.4/src/wqe.h
+Copyright (c) 2004, 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Cisco Systems.  All rights reserved.
+
+libmthca-1.0.4/src/ah.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+
+libmthca-1.0.4/src/buf.c:
+Copyright (c) 2006 Cisco Systems, Inc.  All rights reserved.
+
+libmthca-1.0.4/src/cq.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+Copyright (c) 2006 Cisco Systems.  All rights reserved.
+
+libmthca-1.0.4/src/memfree.c:
+libmthca-1.0.4/src/mthca.c
+Copyright (c) 2004, 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2006 Cisco Systems.  All rights reserved.
+ 
+libmthca-1.0.4/src/qp.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+ 
+libmthca-1.0.4/src/srq.c:
+Copyright (c) 2005 Cisco Systems.  All rights reserved.
+ 
+libmthca-1.0.4/src/verbs.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005, 2006 Cisco Systems.  All rights reserved.
+
+librdmacm-1.0.6/COPYING:
+Copyright (c) 2005 Intel Corporation.  All rights reserved.
+
+librdmacm-1.0.6/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+librdmacm-1.0.6/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+librdmacm-1.0.6/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+librdmacm-1.0.6/config/compile:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+Written by Tom Tromey <tromey@cygnus.com>.
+
+librdmacm-1.0.6/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+librdmacm-1.0.6/config/config.sub:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+librdmacm-1.0.6/config/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+librdmacm-1.0.6/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+librdmacm-1.0.6/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+librdmacm-1.0.6/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+librdmacm-1.0.6/examples/cmatose.c:
+Copyright (c) 2005-2006 Intel Corporation.  All rights reserved.
+
+librdmacm-1.0.6/examples/mckey.c:
+Copyright (c) 2005-2007 Intel Corporation.  All rights reserved.
+
+librdmacm-1.0.6/examples/rping.c:
+Copyright (c) 2005 Ammasso, Inc. All rights reserved.
+Copyright (c) 2006 Open Grid Computing, Inc. All rights reserved.
+
+librdmacm-1.0.6/examples/udaddy.c:
+Copyright (c) 2005-2006 Intel Corporation.  All rights reserved.
+
+librdmacm-1.0.6/include/rdma/rdma_cma.h:
+Copyright (c) 2005 Voltaire Inc.  All rights reserved.
+Copyright (c) 2005-2007 Intel Corporation.  All rights reserved.
+
+librdmacm-1.0.6/include/rdma/rdma_cma_abi.h:
+Copyright (c) 2005-2006 Intel Corporation.  All rights reserved.
+
+librdmacm-1.0.6/src/cma.c:
+Copyright (c) 2005-2006 Intel Corporation.  All rights reserved.
+
+
+libsdp-1.1.99/COPYING:
+Copyright (c) 2004 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+
+libsdp-1.1.99/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+libsdp-1.1.99/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+libsdp-1.1.99/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+libsdp-1.1.99/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libsdp-1.1.99/config/config.sub:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libsdp-1.1.99/config/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+libsdp-1.1.99/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+libsdp-1.1.99/config/libsdp_indent:
+Copyright (c) 2006 Mellanox Technologies LTD. All rights reserved.
+
+libsdp-1.1.99/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+libsdp-1.1.99/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+libsdp-1.1.99/src/Makefile.in
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+libsdp-1.1.99/src/config_parser.y:
+Copyright (c) 2006 Mellanox Technologies Ltd. All rights reserved.
+
+libsdp-1.1.99/src/config_scanner.l:
+Copyright (c) 2006 Mellanox Technologies Ltd. All rights reserved.
+
+libsdp-1.1.99/src/config_parser.h:
+Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003 Free Software Foundation, Inc.
+
+libsdp-1.1.99/src/libsdp.h:
+Copyright (c) 2004 Topspin Communications.  All rights reserved.
+Copyright (c) 2005-2006 Mellanox Technologies Ltd.  All rights reserved.
+
+libsdp-1.1.99/src/sdp_inet.h:
+Copyright (c) 2004 Topspin Communications.  All rights reserved.
+
+libsdp-1.1.99/src/config_parser.c:
+Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003 Free Software Foundation, Inc.
+
+libsdp-1.1.99/src/config_scanner.c:
+Copyright (c) 2006 Mellanox Technologies Ltd. All rights reserved.
+
+libsdp-1.1.99/src/log.c:
+Copyright (c) 2004 Topspin Communications.  All rights reserved.
+
+libsdp-1.1.99/src/match.c:
+Copyright (c) 2004 Topspin Communications.  All rights reserved.
+Copyright (c) 2005-2006 Mellanox Technologies Ltd.  All rights reserved.
+ 
+libsdp-1.1.99/src/port.c:
+Copyright (c) 2004 Topspin Communications.  All rights reserved.
+Copyright (c) 2005-2006 Mellanox Technologies Ltd.  All rights reserved.
+ 
+libsdp-1.1.99/src/socket.c:
+Copyright (c) 2004 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+
+perftest-1.2/get_clock.c:
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+
+perftest-1.2/get_clock.h:
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+
+perftest-1.2/rdma_bw.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+
+perftest-1.2/rdma_lat.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+Copyright (c) 2005 Hewlett Packard, Inc (Grant Grundler)
+
+perftest-1.2/read_bw.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2006 Mellanox Technologies Ltd.  All rights reserved.
+
+perftest-1.2/read_lat.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+Copyright (c) 2005 Hewlett Packard, Inc (Grant Grundler)
+
+perftest-1.2/send_bw.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+
+perftest-1.2/send_lat.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+Copyright (c) 2005 Hewlett Packard, Inc (Grant Grundler)
+
+perftest-1.2/write_bw.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+
+perftest-1.2/write_bw_postlist.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+
+perftest-1.2/write_lat.c:
+Copyright (c) 2005 Topspin Communications.  All rights reserved.
+Copyright (c) 2005 Mellanox Technologies Ltd.  All rights reserved.
+Copyright (c) 2005 Hewlett Packard, Inc (Grant Grundler)
+
+qperf-0.4.0/COPYING:
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+
+qperf-0.4.0/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+qperf-0.4.0/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+qperf-0.4.0/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+qperf-0.4.0/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+qperf-0.4.0/install-sh:
+Copyright (C) 1994 X Consortium
+
+qperf-0.4.0/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+
+qperf-0.4.0/src/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+qperf-0.4.0/src/help.c:
+Copyright (c) 2002-2008 Johann George.  All rights reserved.
+Copyright (c) 2006-2008 QLogic Corporation.  All rights reserved.
+
+qperf-0.4.0/src/mkhelp:
+Copyright (c) 2002-2008 Johann George.  All rights reserved.
+Copyright (c) 2006-2008 QLogic Corporation.  All rights reserved. 
+
+qperf-0.4.0/src/qperf.c:
+Copyright (c) 2002-2008 Johann George.  All rights reserved.
+Copyright (c) 2006-2008 QLogic Corporation.  All rights reserved.
+
+qperf-0.4.0/src/qperf.h:
+Copyright (c) 2002-2008 Johann George.  All rights reserved.
+Copyright (c) 2006-2008 QLogic Corporation.  All rights reserved.
+
+qperf-0.4.0/src/rdma.c:
+Copyright (c) 2002-2008 Johann George.  All rights reserved.
+Copyright (c) 2006-2008 QLogic Corporation.  All rights reserved.
+
+qperf-0.4.0/src/rds.c:
+Copyright (c) 2002-2008 Johann George.  All rights reserved.
+Copyright (c) 2006-2008 QLogic Corporation.  All rights reserved.
+
+qperf-0.4.0/src/socket.c:
+Copyright (c) 2002-2008 Johann George.  All rights reserved.
+Copyright (c) 2006-2008 QLogic Corporation.  All rights reserved.
+
+qperf-0.4.0/src/support.c:
+Copyright (c) 2002-2008 Johann George.  All rights reserved.
+Copyright (c) 2006-2008 QLogic Corporation.  All rights reserved.
+
+rds-tools-2.0.4/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+rds-tools-2.0.4/kernel-list.h:
+Copyright (c) 2006 Oracle.  All rights reserved.
+
+rds-tools-2.0.4/pfhack.c:
+Copyright (c) 2006 Oracle.  All rights reserved.
+
+rds-tools-2.0.4/pfhack.h:
+Copyright (c) 2006 Oracle.  All rights reserved.
+
+rds-tools-2.0.4/rds-info.c:
+Copyright (c) 2006 Oracle.  All rights reserved.
+
+rds-tools-2.0.4/rds-ping.c:
+Copyright (C) 2008 Oracle.  All rights reserved.
+
+rds-tools-2.0.4/examples/rds-sample.c:
+Copyright (c) 2008 Chelsio, Inc. All rights reserved.
+
+rds-tools-2.0.4/include/rds.h:
+Copyright (c) 2008 Oracle.  All rights reserved.
+
+opensm-3.1.10/COPYING:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/INSTALL:
+Copyright (C) 1994, 1995, 1996, 1999, 2000, 2001, 2002, 2004 Free
+Software Foundation, Inc.
+
+opensm-3.1.10/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+opensm-3.1.10/aclocal.m4:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
+2005  Free Software Foundation, Inc.
+
+opensm-3.1.10/configure:
+Copyright (C) 2003 Free Software Foundation, Inc.
+
+opensm-3.1.10/config/compile:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+Written by Tom Tromey <tromey@cygnus.com>.
+
+opensm-3.1.10/config/config.guess:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+opensm-3.1.10/config/config.sub:
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000, 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+opensm-3.1.10/config/depcomp:
+Copyright (C) 1999, 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
+
+opensm-3.1.10/config/install-sh:
+Copyright (C) 1994 X Consortium
+
+opensm-3.1.10/config/ltmain.sh:
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+
+opensm-3.1.10/config/missing:
+Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005
+Free Software Foundation, Inc.
+Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+opensm-3.1.10/complib/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+opensm-3.1.10/complib/cl_complib.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/cl_dispatcher.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/cl_event.c:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/cl_event_wheel.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/cl_list.c:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/cl_log.c:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/cl_map.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/cl_nodenamemap.c:
+Copyright (c) 2007 Lawrence Livermore National Lab
+
+opensm-3.1.10/complib/cl_pool.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/cl_ptr_vector.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/cl_spinlock.c:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/cl_statustext.c:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/cl_thread.c:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/cl_threadpool.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/cl_timer.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved
+
+opensm-3.1.10/complib/cl_vector.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/complib/ib_statustext.c:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+opensm-3.1.10/include/complib/cl_atomic.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_atomic_osd.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_byteswap.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_byteswap_osd.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_comppool.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_debug.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_debug_osd.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_dispatcher.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_event.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_event_osd.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_event_wheel.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_fleximap.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_list.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_log.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_map.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_math.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_nodenamemap.h:
+Copyright (c) 2007 Lawrence Livermore National Lab 
+
+opensm-3.1.10/include/complib/cl_packoff.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_packon.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_passivelock.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_pool.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved
+
+opensm-3.1.10/include/complib/cl_ptr_vector.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_qcomppool.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_qlist.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_qlockpool.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_qmap.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_qpool.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_spinlock.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved
+
+opensm-3.1.10/include/complib/cl_spinlock_osd.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_thread.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_thread_osd.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_threadpool.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_timer.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_timer_osd.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved
+
+opensm-3.1.10/include/complib/cl_types.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_types_osd.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/complib/cl_vector.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/iba/ib_cm_types.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/iba/ib_types.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved
+
+opensm-3.1.10/include/opensm/osm_attrib_req.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_base.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_console.h:
+Copyright (c) 2005-2007 Voltaire, Inc. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_db.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_db_pack.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_drop_mgr.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_errors.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_event_plugin.h:
+Copyright (c) 2007 The Regents of the University of California.
+
+opensm-3.1.10/include/opensm/osm_fwd_tbl.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved
+
+opensm-3.1.10/include/opensm/osm_helper.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_inform.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_lid_mgr.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_lin_fwd_rcv.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_lin_fwd_tbl.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_link_mgr.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_log.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_mad_pool.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_madw.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_mcast_fwd_rcv.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_mcast_mgr.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_mcast_tbl.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_mcm_info.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_mcm_port.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_msgdef.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_mtree.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_multicast.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_node.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_node_desc_rcv.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_node_info_rcv.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_opensm.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_partition.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_path.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_perfmgr.h:
+Copyright (c) 2007 The Regents of the University of California.
+Copyright (c) 2007 Voltaire, Inc. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_perfmgr_db.h:
+Copyright (c) 2007 The Regents of the University of California.
+
+opensm-3.1.10/include/opensm/osm_pkey.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_pkey_mgr.h:
+Copyright (c) 2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_pkey_rcv.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_port.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_port_info_rcv.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_port_profile.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_prefix_route.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_qos_parser_y.h:
+Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006
+Free Software Foundation, Inc.
+
+opensm-3.1.10/include/opensm/osm_qos_policy.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_rand_fwd_tbl.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_remote_sm.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_req.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_resp.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_router.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_class_port_info.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_guidinfo_record.h:
+Copyright (c) 2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_informinfo.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_lft_record.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_link_record.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_mad_ctrl.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_mcmember_record.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_mft_record.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_multipath_record.h:
+Copyright (c) 2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_node_record.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_path_record.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_pkey_record.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_portinfo_record.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_response.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_service_record.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_slvl_record.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_sminfo_record.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_sw_info_record.h:
+Copyright (c) 2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sa_vlarb_record.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_service.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_slvl_map_rcv.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sm.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sm_mad_ctrl.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sm_state_mgr.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sminfo_rcv.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_state_mgr.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_stats.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_subnet.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sw_info_rcv.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_sweep_fail_ctrl.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_switch.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_trap_rcv.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_ucast_mgr.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_version.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_version.h.in:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_vl15intf.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/osm_vl_arb_rcv.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/opensm/st.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_mtl_bind.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_pkt_randomizer.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_ts_useraccess.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_umadt.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_al.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_api.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_ibumad.h:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mlx.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mlx_defs.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mlx_dispatcher.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mlx_hca.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mlx_inout.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mlx_rmpp_ctx.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mlx_sar.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mlx_sender.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mlx_svc.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mlx_transport.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mlx_transport_anafa.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mlx_txn.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mtl.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mtl_hca_guid.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_mtl_transaction_mgr.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_sa_api.h:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_select.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_test.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_ts.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/include/vendor/osm_vendor_umadt.h:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+opensm-3.1.10/libvendor/osm_pkt_randomizer.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_al.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_ibumad.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_ibumad_sa.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_anafa.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_dispatcher.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_hca.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_hca_anafa.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_hca_pfs.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_hca_sim.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_ibmgt.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_rmpp_ctx.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_sa.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_sar.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_sender.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_sim.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_ts.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_ts_anafa.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mlx_txn.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mtl.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mtl_hca_guid.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_mtl_transaction_mgr.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_test.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_ts.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/libvendor/osm_vendor_umadt.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/osmeventplugin/Makefile.in
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+opensm-3.1.10/osmeventplugin/src/osmeventplugin.c
+Copyright (c) 2007 The Regents of the University of California.
+
+opensm-3.1.10/osmtest/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+opensm-3.1.10/osmtest/main.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+
+opensm-3.1.10/osmtest/osmt_inform.c:
+Copyright (c) 2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/osmtest/osmt_mtl_regular_qp.c:
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/osmtest/osmt_multicast.c:
+Copyright (c) 2006-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/osmtest/osmt_service.c:
+Copyright (c) 2006-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/osmtest/osmt_slvl_vl_arb.c:
+Copyright (c) 2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/osmtest/osmtest.c:
+Copyright (c) 2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/osmtest/include/osmt_inform.h:
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/osmtest/include/osmt_mtl_regular_qp.h:
+Copyright (c) 2001-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/osmtest/include/osmtest.h:
+Copyright (c) 2006 Voltaire, Inc. All rights reserved. 
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/osmtest/include/osmtest_base.h:
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/osmtest/include/osmtest_subnet.h:
+Copyright (c) 2006 Voltaire, Inc. All rights reserved. 
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/scripts/opensm.init:
+Copyright 2006 PathScale, Inc.  All Rights Reserved.
+
+opensm-3.1.10/scripts/opensm.init.in:
+Copyright 2006 PathScale, Inc.  All Rights Reserved.
+
+opensm-3.1.10/scripts/opensmd:
+Copyright (c) 2006 Mellanox Technologies. All rights reserved.
+
+opensm-3.1.10/scripts/opensmd.in:
+Copyright (c) 2006 Mellanox Technologies. All rights reserved.
+
+opensm-3.1.10/scripts/redhat-opensm.init:
+Copyright (c) 2006 Mellanox Technologies. All rights reserved.
+
+opensm-3.1.10/scripts/redhat-opensm.init.in:
+Copyright (c) 2006 Mellanox Technologies. All rights reserved.
+
+opensm-3.1.10/scripts/sldd.sh:
+Copyright (c) 2006 Mellanox Technologies. All rights reserved.
+
+opensm-3.1.10/scripts/sldd.sh.in:
+Copyright (c) 2006 Mellanox Technologies. All rights reserved.
+
+opensm-3.1.10/opensm/Makefile.in:
+Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+2003, 2004, 2005  Free Software Foundation, Inc.
+
+opensm-3.1.10/opensm/main.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_check:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_check_n_fix:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved. 
+
+opensm-3.1.10/opensm/osm_console.c:
+Copyright (c) 2005-2007 Voltaire, Inc. All rights reserved.
+
+opensm-3.1.10/opensm/osm_db_files.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_db_pack.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_drop_mgr.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_dump.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_event_plugin.c:
+Copyright (c) 2007 The Regents of the University of California.
+
+opensm-3.1.10/opensm/osm_fwd_tbl.c:
+Copyright (c) 2004, 2005 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_helper.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_indent:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_inform.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_lid_mgr.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_lin_fwd_rcv.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_lin_fwd_tbl.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_link_mgr.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_log.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_mad_pool.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_mcast_fwd_rcv.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_mcast_mgr.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_mcast_tbl.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_mcm_info.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_mcm_port.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_mtree.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_multicast.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_node.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_node_desc_rcv.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_node_info_rcv.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_opensm.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_perfmgr.c:
+Copyright (c) 2007 The Regents of the University of California.
+Copyright (c) 2007 Voltaire, Inc. All rights reserved. 
+
+opensm-3.1.10/opensm/osm_perfmgr_db.c:
+Copyright (c) 2007 The Regents of the University of California.
+
+opensm-3.1.10/opensm/osm_pkey.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_pkey_mgr.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_pkey_rcv.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_port.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_port_info_rcv.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_prtn.c:
+Copyright (c) 2006 Voltaire, Inc. All rights reserved.
+
+opensm-3.1.10/opensm/osm_prtn_config.c:
+Copyright (c) 2006-2007 Voltaire, Inc. All rights reserved.
+
+opensm-3.1.10/opensm/osm_qos.c:
+Copyright (c) 2006 Voltaire, Inc. All rights reserved.
+
+opensm-3.1.10/opensm/osm_qos_parser.l:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved. 
+
+opensm-3.1.10/opensm/osm_qos_parser.y:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved. 
+
+opensm-3.1.10/opensm/osm_qos_parser_l.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved. 
+
+opensm-3.1.10/opensm/osm_qos_parser_y.c:
+Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006
+Free Software Foundation, Inc.
+
+opensm-3.1.10/opensm/osm_qos_policy.c
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_remote_sm.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_req.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_resp.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_router.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_class_port_info.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_guidinfo_record.c:
+Copyright (c) 2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_informinfo.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_lft_record.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_link_record.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_mad_ctrl.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_mcmember_record.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_mft_record.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_multipath_record.c:
+Copyright (c) 2006-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_node_record.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_path_record.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_pkey_record.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_portinfo_record.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_response.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_service_record.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_slvl_record.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_sminfo_record.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_sw_info_record.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sa_vlarb_record.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_service.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_slvl_map_rcv.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sm.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sm_mad_ctrl.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sm_state_mgr.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sminfo_rcv.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_state_mgr.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_subnet.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sw_info_rcv.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_sweep_fail_ctrl.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_switch.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_trap_rcv.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_ucast_file.c:
+Copyright (c) 2006,2007 Voltaire, Inc. All rights reserved.
+
+opensm-3.1.10/opensm/osm_ucast_ftree.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2007 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_ucast_lash.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+Copyright (c) 2007      Simula Research Laboratory. All rights reserved.
+Copyright (c) 2007      Silicon Graphics Inc. All rights reserved.
+
+opensm-3.1.10/opensm/osm_ucast_mgr.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_ucast_updn.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_vl15intf.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/osm_vl_arb_rcv.c:
+Copyright (c) 2004-2007 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2005 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+opensm-3.1.10/opensm/st.c:
+Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.
+Copyright (c) 1996-2003 Intel Corporation. All rights reserved.
+
+
+
+
+
+============================================================================
+
+
+			OpenIB.org BSD License
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice, this
+list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

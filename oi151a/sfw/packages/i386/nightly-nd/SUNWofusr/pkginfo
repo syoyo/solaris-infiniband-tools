@@ -1,0 +1,20 @@
+PSTAMP=oi-storage20120105023100
+PKG=SUNWofusr
+NAME=Oracle Solaris OpenFabrics userland libraries and applications
+ARCH=i386
+VERSION=11.11.0,REV=2012.01.05.01.48
+SUNW_PRODNAME=SunOS
+SUNW_PRODVERS=5.11/SunOS Development
+SUNW_PKGTYPE=usr
+MAXINST=1000
+CATEGORY=system
+DESC=Oracle Solaris OpenFabrics userland libraries and applications
+VENDOR=Oracle Corporation
+HOTLINE=Please contact your local service provider
+EMAIL=
+CLASSES=none
+BASEDIR=/
+SUNW_PKGVERS=1.0
+SUNW_PKG_ALLZONES=false
+SUNW_PKG_HOLLOW=false
+SUNW_PKG_THISZONE=false
