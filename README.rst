@@ -6,7 +6,7 @@ USE YOUR OWN RISK!!!
 License
 -------
 
-CDDL.
+CDDL or OFED license.
 
 Prebuild packages for OpenIndiana 151a
 --------------------------------------
@@ -29,4 +29,15 @@ Test.
 
   $ ib_rdma_bw                   # On solaris, as a server
   $ rdma_bw solaris_ipaddr       # On Linux, as a client
+
+
+Patched Tavor driver for Illumos(OI151a) kernel
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A compiled **tavor** driver(InfiniHost III) with my patch ( https://github.com/syoyo/illumos-gate/tree/tavor )
+This patched tavor driver enables running OpenSM on OpenIndiana.
+
+Located at ::
+
+  oi151a/kernel/drv
 
